@@ -1,0 +1,43 @@
+^SAMPLE = GSM3036728
+!Sample_title = VLN_16R
+!Sample_geo_accession = GSM3036728
+!Sample_status = Public on Nov 19 2018
+!Sample_submission_date = Mar 11 2018
+!Sample_last_update_date = Nov 19 2018
+!Sample_type = SRA
+!Sample_channel_count = 1
+!Sample_source_name_ch1 = iPSC line
+!Sample_organism_ch1 = Homo sapiens
+!Sample_taxid_ch1 = 9606
+!Sample_characteristics_ch1 = cell type: iPSC derived neurons
+!Sample_characteristics_ch1 = infection status: HSV-1 infected
+!Sample_characteristics_ch1 = drug status: with R430
+!Sample_treatment_protocol_ch1 = We used a genetically engineered HSV-1 KOS strain that expresses enhanced green fluorescent protein (EGFP) and red fluorescent protein (RFP) under the control of immediate early and late gene promoters, respectively (33).  To determine the optimal conditions for evaluating drug effects, hiPSC-neurons cells were infected for 2 hours (multiplicity of infection, MOI=0.3), after which the inocula were replaced with media containing R430 (10 µM) or vehicle (DMSO).  Separately, cells were incubated in media containing R430 (10 µM) or vehicle in the absence of HSV-1. All assays were conducted in triplicate.  Cells were harvested after 6 hours post infection (hpi), 12 hpi, or 24 hpi, DNA was extracted using (QIAamp DNA Mini Kit, (Qiagen) and DNA conentrations were estimated. Subsequently, the EGFP locus was amplified to estimate viral copy number using custom primers (34).  A significant increase in viral copy number was noted in vehicle treated cells after 12h and 24h, but not after 6h. Substantial reduction in viral copy number was found following incubation with R430 at 12h or 24h.  The 12h incubation period was therefore selected for subsequent studies examining gene expression
+!Sample_growth_protocol_ch1 = hiPSC-neurons were cultured in mTeSR1 medium. hiPSC-neurons were generated as previously described (D’Aiuto et al. Organogenesis. 2014;10(4):365-77).​
+!Sample_molecule_ch1 = total RNA
+!Sample_extract_protocol_ch1 = At 12 hpi, the cellular RNA was extracted (RNeasy Mini Kits, Qiagen) and quantified using Agilent 4200 TapeStation (Agilent Technologies).
+!Sample_extract_protocol_ch1 = Total RNA libraries were generated using the Illumina TruSeq Stranded Total RNA Sample Preparation Guide, Revision E. The first step involved the removal of ribosomal and mitochondrial RNA using biotinylated, target-specific oligos combined with Ribo-Zero rRNA removal beads. Following purification, remaining RNA was fragmented using divalent cations under elevated temperature, which were then copied into first strand cDNA using reverse transcriptase and random primers, followed by second strand cDNA synthesis using DNA Polymerase I and RNase H.  Subsequently, a single adenosine base was added to each of the cDNA fragments  followed by ligation of an adapter.  The products were purified and enriched with PCR to create the final cDNA library.  The cDNA libraries were validated using KAPA Biosystems primer premix kit with Illumina-compatible DNA primers and Qubit 2.0 fluorimeter. Quality was examined using an Agilent Bioanalyzer Tapestation 2200. The cDNA libraries were pooled at a final concentration 1.8pM.
+!Sample_description = VLN_HSV1_neuron_rnaseq_expression.csv
+!Sample_data_processing = sequenced reads were processed and aligned using CLCbio v9.5.3
+!Sample_data_processing = Sequences were trimmed based on quality score using the modified-Mott trimming algorithm as implemented in CLC bio software, using a trim cutoff error probability of 0.05.  Ambiguous bases were trimmed using a post trim maximal ambiguous base cutoff of 2.  The trimmed reads were then mapped to the human genome GRCh38/hg38, using sequence and annotation provided by Ensembl (release 82). Approximately 93% of reads were mapped in pairs (SD=0.45) across all samples, and 98.4% of reads were mapped in total (SD=0.46).  The remaining unmapped reads were collected and mapped to the Human Herpesvirus strain KOS genome (GenBank: JQ780693.1).
+!Sample_data_processing = Genome_build: GRCh38/hg38
+!Sample_data_processing = Supplementary_files_format_and_content: csv format file with total counts, RPKM, TPM and CPM for each sample
+!Sample_platform_id = GPL18573
+!Sample_contact_name = Leonardo,,D'aiuto
+!Sample_contact_laboratory = Nimgaonkar
+!Sample_contact_department = psychiatry
+!Sample_contact_institute = UPMC
+!Sample_contact_address = 3811 O'Hare st
+!Sample_contact_city = pittsburgh
+!Sample_contact_state = pa
+!Sample_contact_zip/postal_code = 15217
+!Sample_contact_country = USA
+!Sample_instrument_model = Illumina NextSeq 500
+!Sample_library_selection = cDNA
+!Sample_library_source = transcriptomic
+!Sample_library_strategy = RNA-Seq
+!Sample_relation = BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN08683766
+!Sample_relation = SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX3780251
+!Sample_supplementary_file_1 = NONE
+!Sample_series_id = GSE111656
+!Sample_data_row_count = 0

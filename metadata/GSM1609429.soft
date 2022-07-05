@@ -1,0 +1,45 @@
+^SAMPLE = GSM1609429
+!Sample_title = GM12878_Rep3_PolyARNA
+!Sample_geo_accession = GSM1609429
+!Sample_status = Public on Feb 14 2015
+!Sample_submission_date = Feb 13 2015
+!Sample_last_update_date = May 15 2019
+!Sample_type = SRA
+!Sample_channel_count = 1
+!Sample_source_name_ch1 = EBV-transformed lymphoblastoid cells
+!Sample_organism_ch1 = Homo sapiens
+!Sample_taxid_ch1 = 9606
+!Sample_characteristics_ch1 = cell line: GM12878
+!Sample_characteristics_ch1 = cell type: EBV-transformed lymphoblastoid
+!Sample_characteristics_ch1 = rna type: polyA RNA
+!Sample_biomaterial_provider_ch1 = Coriell  https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM12878&Product=CC
+!Sample_growth_protocol_ch1 = Human lymphoblastoid cell lines (LCLs) were obtained from Coriell Cell Repository and grown in 15% fetal bovine serum and 1% Pen-Strep. For replicate experiments, cells were grown separately to a density of 0.8-1.0 x 10^6 cells/mL. Approximately 20 million cells were pelleted at 250g at 4C and washed with PBS.
+!Sample_molecule_ch1 = polyA RNA
+!Sample_extract_protocol_ch1 = For RNA sequencing experiments, Total RNA was extracted using Trizol reagent according to the manufacturer’s instructions (Lifetechnologies), then purified using the Qiagen RNeasy kit (Qiagen, Valencia, CA) and treated with RNAse-free DNase (Qiagen, Valencia, CA). RNA integrity was checked with a Bioanalyzer (Agilent, Santa Clara CA) and only samples with an RNA integrity number (RIN) of > 9.5 were subsequently subjected to poly-A-selection. For poly-A selection, 10 μg of purified total RNA were enriched by performing two cycles of selection using the Dynabeads mRNA Purification Kit (Life Technologies).
+!Sample_extract_protocol_ch1 = For RNA sequencing experiments, stranded libraries were prepared following the dUTP protocol (Parkhomchuk et al., 2009). In brief: ~100 ng of poly-A-selected RNA were fragmented with 10 x fragmentation buffer (Life Technologies, #AM8740) for 2 min at 70 °C. First-strand cDNA synthesis was primed with random hexamers. Actinomycin D was added to reduce anti-sense artifacts. For the second-strand synthesis dTTP was replaced with dUTP. The cDNA was end-repaired and phosphorylated with the End-It kit from Epicentre (ER0720). After treatment with Klenow fragment (NEB, Cat# M0212s) and dATP, Illumina TruSeq adapters were ligated to the protruding 3_-‘A’ base (LigaFast, Promega Cat#M8221). After size-selection on an agarose gel the second strand was eliminated by digestion with AmpErase Uracil N-glycosylase (UNG) (Life Technologies, N8080096).
+!Sample_data_processing = Where applicable, 3’ adaptors were removed using cutadapt v.1.2.1 with the following parameters: --overlap=2 --minimum-length=21 --quality-cutoff=33.
+!Sample_data_processing = Reads were aligned using Bowtie2 v.2.0.5 with a sequential strategy. Human rRNA and tRNA sequences were downloaded from UCSC Genome Browser (hg19) repeatmasker track. All reads mapping to these sequences were filtered out. The remaining reads were aligned using parameters “-L 18 --norc” to APPRIS principal transcripts (release 12) from the GENCODE mRNA annotation v.15. This step was followed by alignment to all GENCODE transcripts and finally to the human genome (hg19).
+!Sample_data_processing = Alignments with a mapping quality greater than two were used for subsequent analyses. Reads mapping to coding regions, 5’UTRs, and 3’UTRs were counted separately using bedtools and custom scripts. For all transcript level analyses, reads that map only to coding regions were used.
+!Sample_data_processing = The cell line identity for all ribosomal profiling libraries were verified by comparing empirically generated genotype calls to the reference genotypes. Specifically, we utilized samtools mpileup utility in combination with bcftools to generate genotype calls from the ribosomal profiling read alignments. Genotypes that were supported by at least 10 reads were retained using ‘vcfutils.pl varFilter -d10’. Finally, a custom perl script was used to compare the number of perfect matches between empirically called genotypes and the reference genotype that was available from HapMap and 1K Genomes.
+!Sample_data_processing = Genome_build: hg19
+!Sample_data_processing = Supplementary_files_format_and_content: Two processed data files are provided. These files contain the number of reads that map to the coding region of each APPRIS transcript. The column names specify the cell line identity and the replicate number.
+!Sample_platform_id = GPL11154
+!Sample_contact_name = Can,,Cenik
+!Sample_contact_email = ccenik@stanford.edu
+!Sample_contact_laboratory = Snyder
+!Sample_contact_department = Genetics
+!Sample_contact_institute = Stanford University
+!Sample_contact_address = 300 Pasteur Dr, Alway Building Rm M344
+!Sample_contact_city = Stanford
+!Sample_contact_state = CA
+!Sample_contact_zip/postal_code = 94305
+!Sample_contact_country = USA
+!Sample_instrument_model = Illumina HiSeq 2000
+!Sample_library_selection = cDNA
+!Sample_library_source = transcriptomic
+!Sample_library_strategy = RNA-Seq
+!Sample_relation = BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN03343996
+!Sample_relation = SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX876775
+!Sample_supplementary_file_1 = NONE
+!Sample_series_id = GSE65912
+!Sample_data_row_count = 0

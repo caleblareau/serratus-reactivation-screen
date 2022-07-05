@@ -1,0 +1,20 @@
+virus_name	run_id	SampleName	score	n_reads	title	name1	known_infection
+Human herpesvirus 6	SRR2454080	GSM1888839	100	63409	5131-Memory-T336	Memory CD4 T-cells	FALSE
+Human herpesvirus 6	SRR8646162	GSM3635355	100	42877	donor49_Infected_day14	Primary CD4 positive T-cell	TRUE
+Human herpesvirus 6	SRR7281477	GSM3181603	100	23976	Infected T cells as positive control [SupT1]	cell pellet	TRUE
+Human herpesvirus 6	SRR8646161	GSM3635354	100	5291	donor49_Infected_day9	Primary CD4 positive T-cell	TRUE
+Epstein-Barr virus	SRR7010505	GSM3099827	97	2435	RNA-Seq T cells TCR 2 days	T cells (Patient 4) with T-Cell Receptor stimulation (anti-CD3 + anti-CD28)	FALSE
+Epstein-Barr virus	SRR7971484	GSM3418284	97	2203	invitro_rep7_IL21	Intestinal intraepithelial cytotoxic T cells	FALSE
+Epstein-Barr virus	SRR7971485	GSM3418285	87	1765	invitro_rep7_IL21_BNZ	Intestinal intraepithelial cytotoxic T cells	FALSE
+Human adenovirus	SRR6652791	GSM2971200	100	1604	CD4lowHLA-G+ T cells rep2	CD4lowHLA-G+ T cells	FALSE
+Epstein-Barr virus	SRR7971487	GSM3418287	84	1300	invitro_rep7_UN	Intestinal intraepithelial cytotoxic T cells	FALSE
+Epstein-Barr virus	SRR7010503	GSM3099825	97	1085	RNA-Seq Fresh T cells	T cells (Patient 4)_fresh T cells with no stimulation	FALSE
+Epstein-Barr virus	SRR7971482	GSM3418282	81	877	invitro_rep6_IL21_CP	Intestinal intraepithelial cytotoxic T cells	FALSE
+Epstein-Barr virus	SRR7971483	GSM3418283	81	803	invitro_rep6_UN	Intestinal intraepithelial cytotoxic T cells	FALSE
+Epstein-Barr virus	SRR7971486	GSM3418286	72	723	invitro_rep7_IL21_CP	Intestinal intraepithelial cytotoxic T cells	FALSE
+Human herpesvirus 8	SRR4026476	GSM2274957	64	563	S33284_838213_hOKT3_R_6mo_CD8_TIGITpos_KLRG1pos_stim_untr	CD8+ sorted T-cells	FALSE
+Epstein-Barr virus	SRR7971480	GSM3418280	78	551	invitro_rep6_IL21	Intestinal intraepithelial cytotoxic T cells	FALSE
+Merkel cell polyomavirus	SRR5980469	GSM2754541	97	435	243_07-0200_DAY_0_T-Ag85_243_L5.LB23	T cells	FALSE
+Epstein-Barr virus	SRR7971481	GSM3418281	64	366	invitro_rep6_IL21_BNZ	Intestinal intraepithelial cytotoxic T cells	FALSE
+Human herpesvirus 8	SRR4026468	GSM2274949	67	190	S33276_838213_hOKT3_R_6mo_CD8_TIGITpos_KLRG1pos_stim_untr	CD8+ sorted T-cells	FALSE
+Epstein-Barr virus	SRR8646160	GSM3635353	55	154	donor49_Infected_day7	Primary CD4 positive T-cell	TRUE

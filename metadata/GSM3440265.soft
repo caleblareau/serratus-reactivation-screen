@@ -1,0 +1,49 @@
+^SAMPLE = GSM3440265
+!Sample_title = NOK HPV16-FG27-2
+!Sample_geo_accession = GSM3440265
+!Sample_status = Public on Oct 23 2018
+!Sample_submission_date = Oct 22 2018
+!Sample_last_update_date = Oct 23 2018
+!Sample_type = SRA
+!Sample_channel_count = 1
+!Sample_source_name_ch1 = Normal Oral Keratinocytes
+!Sample_organism_ch1 = Homo sapiens
+!Sample_taxid_ch1 = 9606
+!Sample_characteristics_ch1 = cell type: Normal Oral Keratinocytes
+!Sample_characteristics_ch1 = genotype: HPV16 full genome
+!Sample_treatment_protocol_ch1 = 2.5x105 cells were plated onto 10cm plates. The following day 1 μM Decitabine (Abcam - ab120842) was added to media of cells. 96 hours later, cells were harvested by trypsinization and processed for qRT-PCR or western blotting as described above.
+!Sample_growth_protocol_ch1 = Cells were grown in keratinocyte serum-free medium (K-SFM) (Gibco) with 1% (v/v) penicillin/streptomycin mixture (Life Technologies) containing 4μg/mL hygromycin B (Sigma) at 37°C in a 5% CO2/95% air atmosphere and passaged every 3-4 days. Cells were routinely checked for mycoplasma contamination. NOKs+E2 clones and NOKs+HPV16 clones were grown in medium containing 150μg/mL G418 (Corning). NOKs+E2, NOKs+E6, and NOKs+E7 and NTERT+E2 pools were grown in medium containing 5 μg/mL puromycin (Corning).
+!Sample_molecule_ch1 = total RNA
+!Sample_extract_protocol_ch1 = 1x106 cells were plated onto 100mm plates, trypsinized and pelleted after 24hrs and washed twice with phosphate buffered saline (PBS). RNA was immediately isolated using the SV Total RNA Isolation System (Promega) following the manufacturer’s instructions.
+!Sample_extract_protocol_ch1 = RNA was extracted using the same method described for SYBR Green qRT-PCR above. RNA sequencing was performed by the Genomics, Epigenomics and Sequencing core at the University of Cincinnati under the supervision of Dr. Xiang Zhang. Duplicates were sequenced for NOKs and NOKs+HPV16. The RNA concentration was measured by Nanodrop (Thermo Scientific) and its integrity was determined by Bioanalyzer (Agilent). The NEBNext Ultra Directional RNA Library Prep Kit (New England BioLabs) was used for library preparation, which used dUTP in cDNA synthesis to maintain strand specificity. In short, the isolated polyA RNA or rRNA/globin depleted RNA was Mg2+/heat fragmented (∼200 bp), reverse transcribed to 1st strand cDNA, followed by 2nd strand cDNA synthesis labelled with dUTP. The purified cDNA was end repaired and dA tailed, and then ligated to adapter with a stem-loop structure. The dUTP-labelled 2nd strand cDNA was removed by USER enzyme to maintain strand specificity. After indexing via PCR (∼12 cycles) enrichment, the amplified libraries together with library preparation negative control were cleaned up by AMPure XP beads for QC analysis. To check the quality and yield of the purified library, one µl library was analyzed by Bioanalyzer (Agilent) using DNA high sensitivity chip. To accurately quantify the library concentration for the clustering, the library was 1:104 diluted in dilution buffer (10 mM Tris-HCl, pH 8.0 with 0.05% Tween 20), and qPCR measured by Kapa Library Quantification kit (Kapabiosystem) using ABI’s 9700HT real-time PCR system (Thermo Fisher). Individually indexed and compatible libraries were proportionally pooled (∼25 million reads per sample) for clustering in cBot system (Illumina). Libraries at the final concentration of 15 pM were clustered onto a single read (SR) flow cell using Illumina TruSeq SR Cluster kit v3, and sequenced to 50 bp using TruSeq SBS kit on Illumina HiSeq system.
+!Sample_description = IMM06
+!Sample_data_processing = Quality control assessed using FastQC version 0.11.2.  All files passed.
+!Sample_data_processing = Human reference Homo_sapiens.GRCH38.dna_sm.primary_assembly.fa, downloaded from Ensembl http://useast.ensembl.org/info/data/ftp/index.html on July 25, 2016 along with the corresponding .gtf file.  A reference was created using bowtie 2.2.9 build command.
+!Sample_data_processing = Single-end reads were locally aligned using bowtie2 version 2.2.9 and all other default settings
+!Sample_data_processing = Mapped to human reads were separated from the rest using awk 'BEGIN{FS =OFS = "\t"} $3 != "*"' inputfile >outputfile
+!Sample_data_processing = The human mapped reads were sorted using samtools sort command
+!Sample_data_processing = Libraries used in R version 3.2 for the remaining workflows are GenomicFeatures 1.24.5, Genomic Alignments 1.8.4, and DESeq2 version 1.12.4
+!Sample_data_processing = BAM files and .gtf file downloaded above were fed into DESeq2 as well as sample information, and a gene level analysis was performed.  (colData = read.csv(FG_comp, row.names=1)) and (txdb = makeTxDbFromGFF(gtffile, format = "gtf", circ_seqs = character())) and (ebg <- exonsBy(txdb, by="gene")) and FGse <- summarizeOverlaps(features=ebg, reads=bamfiles, mode="Union", singleEnd=TRUE, ignore.strand=TRUE, fragments=FALSE ) and T1 = (as.data.frame(assay(FGse)))
+!Sample_data_processing = H1 = DESeqDataSetFromMatrix(countData = T1, colData = colData, design = ~ Condition)
+!Sample_data_processing = Genes were considered differentially expressed if DESeq2's adjusted p-value was < 0.05 and fold change >1.5 fold in magnitude
+!Sample_data_processing = Genome_build: Human reference Homo_sapiens.GRCH38.dna_sm.primary_assembly.fa, downloaded from Ensembl http://useast.ensembl.org/info/data/ftp/index.html on July 25, 2016
+!Sample_data_processing = Supplementary_files_format_and_content: Tab delimited text matrix of abdundance measurements as outputted by DESeq2
+!Sample_platform_id = GPL11154
+!Sample_contact_name = Iain,,Morgan
+!Sample_contact_email = immorgan@vcu.edu
+!Sample_contact_phone = 8048280149
+!Sample_contact_institute = VIRGINIA COMMONWEALTH UNIVERSITY
+!Sample_contact_address = School of Dentistry, W. Baxter Perkinson Bldg, 521 N 11th Street
+!Sample_contact_city = Richmond
+!Sample_contact_state = VA
+!Sample_contact_zip/postal_code = 23298
+!Sample_contact_country = USA
+!Sample_instrument_model = Illumina HiSeq 2000
+!Sample_library_selection = cDNA
+!Sample_library_source = transcriptomic
+!Sample_library_strategy = RNA-Seq
+!Sample_relation = BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN10269653
+!Sample_relation = SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX4914161
+!Sample_supplementary_file_1 = NONE
+!Sample_series_id = GSE121627
+!Sample_data_row_count = 0

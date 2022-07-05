@@ -1,0 +1,36 @@
+^SAMPLE = GSM485375
+!Sample_title = NA18499_yale
+!Sample_geo_accession = GSM485375
+!Sample_status = Public on Feb 28 2010
+!Sample_submission_date = Dec 15 2009
+!Sample_last_update_date = May 15 2019
+!Sample_type = SRA
+!Sample_channel_count = 1
+!Sample_source_name_ch1 = lymphoblastoid cell line
+!Sample_organism_ch1 = Homo sapiens
+!Sample_taxid_ch1 = 9606
+!Sample_characteristics_ch1 = cell line: NA18499
+!Sample_biomaterial_provider_ch1 = Coriell Cell Repositories  http://ccr.coriell.org/Sections/Search/Search.aspx?PgId=165&q=NA18499
+!Sample_growth_protocol_ch1 = 37o in RPMI
+!Sample_molecule_ch1 = total RNA
+!Sample_extract_protocol_ch1 = Total RNA from HapMap Yoruba lymphoblastoid cell lines was extracted using an RNeasy Mini Kit (Qiagen) and assessed using an Agilent Bioanalyzer. mRNA was then isolated with Dyna1 oligo-dT beads (Invitrogen) from 10 micrograms of total RNA. The mRNA was randomly fragmented using the RNA fragmentation kit from Ambion. First-strand cDNA synthesis was performed using random primers and SuperScriptII reverse-transcriptase (Invitrogen). This was followed by second-strand cDNA synthesis using DNA Polymerase I and RNaseH (Invitrogen).  The short cDNA fragments from each sample were prepared into a library for Illumina sequencing. Briefly, the Illumina adaptor was ligated to the ends of the double-stranded cDNA fragments and a 200 bp size-selection of the final product was performed by gel-excision, following the Illumina-recommended protocol. 200 bp cDNA template molecules with the adaptor attached were enriched by PCR to create the final library.
+!Sample_description = RNA-Seq
+!Sample_data_processing = Mapped using MAQ v. 0.6.8
+!Sample_platform_id = GPL9115
+!Sample_contact_name = Joseph,,Pickrell
+!Sample_contact_email = pickrell@uchicago.edu
+!Sample_contact_institute = University of Chicago
+!Sample_contact_address = 920 E. 58th St.
+!Sample_contact_city = Chicago
+!Sample_contact_state = IL
+!Sample_contact_zip/postal_code = 60637
+!Sample_contact_country = USA
+!Sample_instrument_model = Illumina Genome Analyzer II
+!Sample_library_selection = cDNA
+!Sample_library_source = transcriptomic
+!Sample_library_strategy = RNA-Seq
+!Sample_relation = SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX014542
+!Sample_relation = BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN00006669
+!Sample_supplementary_file_1 = ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM485nnn/GSM485375/suppl/GSM485375_NA18499_yale.map.gz
+!Sample_series_id = GSE19480
+!Sample_data_row_count = 0

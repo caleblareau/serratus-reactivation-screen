@@ -1,0 +1,42 @@
+^SAMPLE = GSM3494129
+!Sample_title = CAP31-C43
+!Sample_geo_accession = GSM3494129
+!Sample_status = Public on Jan 02 2019
+!Sample_submission_date = Nov 27 2018
+!Sample_last_update_date = Jan 02 2019
+!Sample_type = SRA
+!Sample_channel_count = 1
+!Sample_source_name_ch1 = Gencord collection (Borel et al 2015)
+!Sample_organism_ch1 = Homo sapiens
+!Sample_taxid_ch1 = 9606
+!Sample_characteristics_ch1 = cell culture: UCB1014
+!Sample_characteristics_ch1 = cell type: LCL
+!Sample_characteristics_ch1 = individual id: Individual 5
+!Sample_growth_protocol_ch1 = Cells were cultured in DMEM GlutaMAX™ (Life Technologies) supplemented with 10% fetal bovine serum (Life Technologies) and 1% penicillin/streptomycin/fungizone mix (Amimed, BioConcept) at 37°C in a 5% CO2 atmosphere as described
+!Sample_molecule_ch1 = total RNA
+!Sample_extract_protocol_ch1 = Single-cell capture was performed using the C1 single-cell auto prep system (Fluidigm) following the manufacturer’s procedure. The integrated fluidic circuit used for the study is the C1™ Single-Cell mRNA Seq IFC, 17–25 μm with a capacity of 96 chambers. During the capture, all 96 chambers were inspected under an inverted phase contrast microscope; only chambers containing a non-damaged single cell were considered for downstream analysis. SMARTer Ultra Low RNA kit for Illumina sequencing (version 2, Clontech) was used for the cell lysis and cDNA synthesis.
+!Sample_extract_protocol_ch1 = Libraries were prepared with 0.3 ng of pre-amplified cDNA using Nextera XT DNA kit (Illumina)
+!Sample_extract_protocol_ch1 = Libraries were sequenced on an Illumina HiSeq2000 sequencer as 100 bp single ended reads. RNA sequences were mapped with GEM. Uniquely mapping reads were extracted by filtering for mapping quality (MQ>=150). An in-house algorithm was used to quantify RPKM expression using GENCODE v26. Cells with less than 1 million uniquely mapped reads were excluded from further analysis.
+!Sample_description = Single cell lymphoblastoid
+!Sample_description = ASE_gene_cell_ind.csv
+!Sample_data_processing = Genome sequencing: For each individual,we used the Burrows- Wheeler Aligner (BWA mem v.0.7.10) to align the sequencing reads (fastq) to the human reference genome (GRCh37/hg19). We used SAMtools v.1.4 to remove paired-end duplicates and pile up the remaining reads. BCFtools v.1.4 was used to call the SNVs and Annovar (2016Feb01) for the annotation. SNVs with quality score <100 where excluded from the analysis.
+!Sample_data_processing = Single cell RNA-seq: RNA sequences were mapped with GEM. Uniquely mapping reads were extracted by filtering for mapping quality (MQ>=150). An in-house algorithm was used to quantify RPKM expression using GENCODE v26. Cells with less than 1 million uniquely mapped reads were excluded from further analysis
+!Sample_data_processing = Allele specific expression: For each gene on the X chromosome, the aggregate monoallelic ratio (AR) per cell was calculated by averaging the allelic ratio of the reads covering the respective heterozygous sites (AR = sum of number of reads from the active X allele / total SNV reads; 0≤AR≤1). Since we do not have the availability of parental genotype for all the individuals, we designed an algorithm to estimate the active X allele per site based on the assumption that the active X allele is, on average, more transcribed than the inactive X. We validated this assumption comparing the prediction of our algorithm with the phasing of twins’ X alleles based on parental information (more details in Methods S1). According to this metric, inactivated genes cluster around AR=1 while known escapees appear as been uniformly distributed between 0.5≤AR≤0.95 (linear phase of the cumulative distribution, Figure S12). As support of this observation, AR distribution of autosomal genes clearly indicates AR=0.95 as the threshold separating biallelically expressed genes from monoallelic expressed genes (Figure S13). Therefore, we consider a gene as escapee in the relaxed set when the aggregate AR is ≤ 0.95 in at least 1 individual and as escapee in the robust set when the aggregate AR is ≤ 0.95 in at least 2 individuals. To reduce the effect of allele dropout, we only consider for the analysis SNV sites covered by at least 5 reads in at least three cells. To reduce sampling bias effects a gene is included in the analysis if detectable in more than 5 different cells and/or SNVs per sample.
+!Sample_data_processing = Genome_build: GRCh37/hg19
+!Sample_platform_id = GPL11154
+!Sample_contact_name = Federico,,Santoni
+!Sample_contact_email = federico.santoni@chuv.ch
+!Sample_contact_institute = CHUV
+!Sample_contact_address = rue du Bugnon, 7
+!Sample_contact_city = Lausanne
+!Sample_contact_zip/postal_code = 1100
+!Sample_contact_country = Switzerland
+!Sample_instrument_model = Illumina HiSeq 2000
+!Sample_library_selection = cDNA
+!Sample_library_source = transcriptomic
+!Sample_library_strategy = RNA-Seq
+!Sample_relation = BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN10488220
+!Sample_relation = SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX5068548
+!Sample_supplementary_file_1 = NONE
+!Sample_series_id = GSE123028
+!Sample_data_row_count = 0

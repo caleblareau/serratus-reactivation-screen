@@ -1,0 +1,44 @@
+^SAMPLE = GSM938899
+!Sample_title = Sample_GM12004_NT
+!Sample_geo_accession = GSM938899
+!Sample_status = Public on Sep 20 2013
+!Sample_submission_date = May 29 2012
+!Sample_last_update_date = May 15 2019
+!Sample_type = SRA
+!Sample_channel_count = 1
+!Sample_source_name_ch1 = cultured B-cells
+!Sample_organism_ch1 = Homo sapiens
+!Sample_taxid_ch1 = 9606
+!Sample_characteristics_ch1 = cell type: B-cells
+!Sample_characteristics_ch1 = cell line: GM12004
+!Sample_characteristics_ch1 = directional rnaseq: Non-directional
+!Sample_characteristics_ch1 = experiment: cDNA-NTC-siRNA
+!Sample_characteristics_ch1 = treatment: non-targeting control siRNA
+!Sample_biomaterial_provider_ch1 = Coriell; http://ccr.coriell.org/Sections/Search/Search.aspx?PgId=165&q=GM12004
+!Sample_treatment_protocol_ch1 = 5X105 cultured B cells were transfected with 2.5 nmol Accell siRNAs (Thermo Scientific) against ADAR1 and ADAR2 according to the manufacturer’s protocols.  2.5nmol of non-targeting control siRNA (NTC-siRNA) was transfected as negative controls.  The transfected cells with siRNAs were incubated at 37°C in Accell transfection media for 96 hours.  In time course experiment, cells were treated with another 2.5nmol of siRNAs 24 hours following the first treatment.  Accell media was then replaced with regular growth media.  Cells were allowed to recover for 24 hours before being harvested.  For protein immunoprecipitation, Cells were lysed in Lysis buffer (20 mM Tris HCl (pH 8), 137 mM NaCl, 10% glycerol, 1% Nonidet P-40 (NP-40) and 2 mM EDTA) supplemented with 1XComplete protease inhibitors (Roche) and 1Xphosphatase inhibitors II and III (Sigma). Cell lysates containing 150 mg of total protein were incubated with 1 µg of anti-ADAR1 (#HPA003890, Sigma), or negative control rabbit IgG (ab46540, ABCAM) at 4°C overnight.  Immuno-complex was pulled down using Protein A agarose (Roche), and washed 4 times with lysis buffer.  Immunoprecipitate was eluted in 20 mM Tris/7.5, 150 mM NaCl, 2.5 mM MgCl2, 0.2% SDS at 30°C for 1 hour.  Protein samples were analyzed by Western Blot using anti-ADAR antibody (1:1000) or anti-tubulin (1:2000, Millipore).  For RNA-immunoprecipitation, anti-ADAR1 RNA-immunoprecipitation was carried out using Magna RNA-Binding Protein Immunoprecipitation Kit (Millipore) following manufacturer’s protocol.  Briefly, for each immunoprecipitation reaction, 2X107 cultured B-cells were harvested and lysed in 100 µl of Lysis Buffer with protease and RNase inhibitors.  1 µg of anti-ADAR antibody (#HPA003890, Sigma) or negative control rabbit IgG (ab46540, ABCAM) were conjugated to magnetic Protein A/G beads.  100 µl of cell lysate was added into 900µl Immunoprecipitation Buffer with RNase inhibitor and incubated with cRNase inhibitor, and incubated with protease K in presence of 1%SDS at 55°C for 30 minutes.  RNA was then extracted from supernatants using phenol:chloroform:isoamyl alcohol and precipitated using ethanol.
+!Sample_growth_protocol_ch1 = Cultured B-cell lines from two CEPH individuals (Centre d'Etude du Polymorphisme Humain), GM12004 and GM12750, were obtained from Coriell (Camden, NJ, USA).  The B-cells were grown to a density of 5x105 cells/mL in RPMI 1640 supplemented with 15% fetal bovine serum, 100 units/mL penicillin and 100 μg/mL streptomycin, and 2 mmol/L L-glutamine.  For downstream experiments, cells were harvested 24 hours after addition of fresh medium.
+!Sample_molecule_ch1 = total RNA
+!Sample_extract_protocol_ch1 = RNA were extracted using Qiagen DNeasy blood and tissue kit and RNeasy Mini kit with DNase treatment, respectively (Qiagen).  For transcriptome sequencing, total RNA was extracted using the RNeasy Mini kit with DNase treatment (Qiagen).  RNA-seq libraries were prepared following Illumina TruSeq RNA sample preparation protocol or directional mRNA-Seq sample preparation protocol, respectively.  The samples were sequenced using HiSeq 2000 instrument and 100-200 million 100-nt reads per sample were generated.
+!Sample_data_processing = We have only FPKM gene expression analysis for 5 samples in current study. For other samples, we generated BAM files and utilized sequence information from the BAM files for studying RNA-editing and other types of single nucleotide differences. We also attached a spreadsheet on the Series record containing the sum of all RDDs determined for the combined analysis from the different individuals in this study.
+!Sample_data_processing = Low quality bases at the 3' ends of reads defined by Illumina were trimmed, and the resulting reads were aligned to the human reference genome (hg18) using GSNAP (version 2011-03-28.v3) using the following parameters: Mismatches ≤[(read length+2)/12-2]; Mapping score ≥20;  Soft-clipping on (-trim-mismatch-score=-3);  Known exon-exon junctions (defined by RefSeq (downloaded March 7, 2011) and Gencode (version 3c)) and novel junctions (defined by GSNAP) were accepted.  SNP sites in the CEU population from Hapmap (release #28) and 1000 Genomes (pilot project) were included for SNP-tolerant alignments.  Only reads that aligned to one genomic location (uniquely mapped reads) were used in further analyses.
+!Sample_data_processing = Expression levels of RNA transcripts were analyzed using Cufflinks.
+!Sample_data_processing = Genome_build: HG18
+!Sample_platform_id = GPL11154
+!Sample_contact_name = Isabel,Xiaorong,Wang
+!Sample_contact_laboratory = Dr. Vivian G. Cheung Lab
+!Sample_contact_department = Pediatrics&Genetics
+!Sample_contact_institute = HHMI/University of Michigan
+!Sample_contact_address = 210 washtenaw ave
+!Sample_contact_city = Ann Arbor
+!Sample_contact_state = Michigan
+!Sample_contact_zip/postal_code = 48109
+!Sample_contact_country = USA
+!Sample_instrument_model = Illumina HiSeq 2000
+!Sample_library_selection = cDNA
+!Sample_library_source = transcriptomic
+!Sample_library_strategy = RNA-Seq
+!Sample_relation = SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX150774
+!Sample_relation = BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN01001230
+!Sample_supplementary_file_1 = ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM938nnn/GSM938899/suppl/GSM938899_FPKM_GM12004_cDNA-NTC-siRNA.txt.gz
+!Sample_series_id = GSE38233
+!Sample_data_row_count = 0

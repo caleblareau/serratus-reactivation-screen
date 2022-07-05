@@ -1,0 +1,57 @@
+^SAMPLE = GSM1009528
+!Sample_title = GIS_RnaPet_GM12878_cytosol_longPolyA
+!Sample_geo_accession = GSM1009528
+!Sample_status = Public on Sep 26 2012
+!Sample_submission_date = Sep 26 2012
+!Sample_last_update_date = May 15 2019
+!Sample_type = SRA
+!Sample_channel_count = 1
+!Sample_source_name_ch1 = GM12878
+!Sample_organism_ch1 = Homo sapiens
+!Sample_taxid_ch1 = 9606
+!Sample_characteristics_ch1 = lab: GIS
+!Sample_characteristics_ch1 = lab description: Ruan - Genome Institute of Singapore
+!Sample_characteristics_ch1 = datatype: RnaPet
+!Sample_characteristics_ch1 = datatype description: RNA Paired-End Tag
+!Sample_characteristics_ch1 = cell: GM12878
+!Sample_characteristics_ch1 = cell organism: human
+!Sample_characteristics_ch1 = cell description: lymphoblastoid, International HapMap Project - CEPH/Utah - European Caucasion, Epstein-Barr Virus
+!Sample_characteristics_ch1 = cell karyotype: normal
+!Sample_characteristics_ch1 = cell lineage: mesoderm
+!Sample_characteristics_ch1 = cell sex: F
+!Sample_characteristics_ch1 = localization: cytosol
+!Sample_characteristics_ch1 = localization description: The fluid between the cells outer membrane and the nucleus
+!Sample_characteristics_ch1 = rnaextract: longPolyA
+!Sample_characteristics_ch1 = rnaextract description: Poly(A)+ RNA longer than 200 nt
+!Sample_characteristics_ch1 = biorep: gen0107C
+!Sample_characteristics_ch1 = labexpid: IHG024
+!Sample_characteristics_ch1 = labversion: clone-free
+!Sample_characteristics_ch1 = replicate: 1
+!Sample_characteristics_ch1 = replicate description: tier 1
+!Sample_biomaterial_provider_ch1 = Coriell; http://ccr.coriell.org/Sections/Search/Search.aspx?PgId=165&q=GM12878
+!Sample_growth_protocol_ch1 = GM12878_protocol.pdf
+!Sample_molecule_ch1 = polyA RNA
+!Sample_extract_protocol_ch1 = For more information, see http://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg19&g=wgEncodeGisRnaPet
+!Sample_data_processing = http://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg19&g=wgEncodeGisRnaPet
+!Sample_platform_id = GPL9115
+!Sample_contact_name = ENCODE,,DCC
+!Sample_contact_email = encode-help@lists.stanford.edu
+!Sample_contact_institute = ENCODE DCC
+!Sample_contact_address = 300 Pasteur Dr
+!Sample_contact_city = Stanford
+!Sample_contact_state = CA
+!Sample_contact_zip/postal_code = 94305-5120
+!Sample_contact_country = USA
+!Sample_instrument_model = Illumina Genome Analyzer II
+!Sample_library_selection = cDNA
+!Sample_library_source = transcriptomic
+!Sample_library_strategy = RNA-Seq
+!Sample_relation = SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX189691
+!Sample_relation = BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN01730982
+!Sample_relation = Named Annotation: NA000013994.1 (GSM1009528_hg19_wgEncodeGisRnaPetGm12878CytosolPapMinusRawRep1V2.bigWig)
+!Sample_relation = Named Annotation: NA000013995.1 (GSM1009528_hg19_wgEncodeGisRnaPetGm12878CytosolPapPlusRawRep1V2.bigWig)
+!Sample_supplementary_file_1 = ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1009nnn/GSM1009528/suppl/GSM1009528_hg19_wgEncodeGisRnaPetGm12878CytosolPapClustersRep1V2.bed.gz
+!Sample_supplementary_file_2 = ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1009nnn/GSM1009528/suppl/GSM1009528_hg19_wgEncodeGisRnaPetGm12878CytosolPapMinusRawRep1V2.bigWig
+!Sample_supplementary_file_3 = ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1009nnn/GSM1009528/suppl/GSM1009528_hg19_wgEncodeGisRnaPetGm12878CytosolPapPlusRawRep1V2.bigWig
+!Sample_series_id = GSE33600
+!Sample_data_row_count = 0

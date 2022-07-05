@@ -1,0 +1,46 @@
+^SAMPLE = GSM3100282
+!Sample_title = AVB_084_AV_NMS
+!Sample_geo_accession = GSM3100282
+!Sample_status = Public on Dec 24 2018
+!Sample_submission_date = Apr 16 2018
+!Sample_last_update_date = Dec 24 2018
+!Sample_type = SRA
+!Sample_channel_count = 1
+!Sample_source_name_ch1 = NMS
+!Sample_organism_ch1 = Homo sapiens
+!Sample_taxid_ch1 = 9606
+!Sample_characteristics_ch1 = subjectid: Subject_084
+!Sample_characteristics_ch1 = visit: AV
+!Sample_characteristics_ch1 = group: Infant
+!Sample_characteristics_ch1 = age at visit (years): 0.36
+!Sample_characteristics_ch1 = sex (f=female, m=male): 1
+!Sample_characteristics_ch1 = steroids_av (1=yes, 0=no): 0
+!Sample_treatment_protocol_ch1 = N/A
+!Sample_growth_protocol_ch1 = N/A
+!Sample_molecule_ch1 = total RNA
+!Sample_extract_protocol_ch1 = Total RNA was extracted from nasal mucosal scrapings (NMS) employing TRizol (Ambion, Life Technologies) followed by RNeasy MinElute (Qiagen, Hilden, Germany). The integrity of the RNA was 9.0±0.5  (mean ± SD), as assessed on the Bioanalyzer (Agilent Technologies, California, USA).
+!Sample_extract_protocol_ch1 = RNA libraries were prepared for sequencing using standard Illumina protocols.
+!Sample_data_processing = The Illumina bcl2fastq 2.17.1.14  pipeline was used to generate the sequence data.
+!Sample_data_processing = FASTQC (Andrews Trop Med Int Health. 2011) was employed for pre-alignment quality control (QC) of raw sequence data. Raw sequencing reads were aligned to the human reference genome (hg19; Pertea Nat Protocol. 2016) using HISAT2 (Kim Nat Methods. 2015), and summarised as gene-level counts employing summariseOverlaps (Anders Nat Protoc. 2013), followed by post-alignment QC with SAMStat (Lassmann Bioninformatics. 2011). Genes with an official HUGO Gene Nomenclature Committee (HGCN) symbol were retained.
+!Sample_data_processing = Genome_build: hg19
+!Sample_data_processing = Supplementary_files_format_and_content: AVB_NMS_raw_counts.txt file includes raw-gene level counts.
+!Sample_platform_id = GPL16791
+!Sample_contact_name = Anya,,Jones
+!Sample_contact_email = Anya.Jones@telethonkids.org.au
+!Sample_contact_laboratory = Systems Immunology
+!Sample_contact_institute = Telethon Kids Institute, The University of Western Australia
+!Sample_contact_address = Northern Entrance, Perth Children's Hospital, 15 Hospital Avenue
+!Sample_contact_city = Nedlands
+!Sample_contact_state = Western Australia
+!Sample_contact_zip/postal_code = 6009
+!Sample_contact_country = Australia
+!Sample_instrument_model = Illumina HiSeq 2500
+!Sample_library_selection = cDNA
+!Sample_library_source = transcriptomic
+!Sample_library_strategy = RNA-Seq
+!Sample_relation = BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN08939314
+!Sample_relation = SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX3944211
+!Sample_supplementary_file_1 = NONE
+!Sample_series_id = GSE113209
+!Sample_series_id = GSE113211
+!Sample_data_row_count = 0

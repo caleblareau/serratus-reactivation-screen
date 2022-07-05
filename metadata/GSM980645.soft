@@ -1,0 +1,45 @@
+^SAMPLE = GSM980645
+!Sample_title = GM12750_GROseq
+!Sample_geo_accession = GSM980645
+!Sample_status = Public on Feb 21 2014
+!Sample_submission_date = Aug 03 2012
+!Sample_last_update_date = May 15 2019
+!Sample_type = SRA
+!Sample_channel_count = 1
+!Sample_source_name_ch1 = B-cells
+!Sample_organism_ch1 = Homo sapiens
+!Sample_taxid_ch1 = 9606
+!Sample_characteristics_ch1 = cell type: B-cells
+!Sample_characteristics_ch1 = individual: GM12750
+!Sample_characteristics_ch1 = assay: global run-on
+!Sample_biomaterial_provider_ch1 = Coriell; http://ccr.coriell.org/Sections/Search/Search.aspx?PgId=165&q=GM12750
+!Sample_treatment_protocol_ch1 = Nuclei were isolated from B cells.  4 X 107 B cells were collected by centrifugation at 400 X g for 2 min at 4oC.  The cells were washed with 20 mL of ice-cold PBS and resuspended in 10 mL of ice-cold lysis buffer [20 mM Tris-HCl pH 7.4, 150 mM KCl, 1.5 mM MgCl2, 1 mM DTT, 0.5% Igepal CA-630, 1X Complete Protease Inhibitor Cocktail (Roche, USA) and 4 units/mL RNAseOUT (Invitrogen, USA)].  Cell  suspension was incubated on ice for 10 minutes before nuclei were centrifuged by 500 X g for 1 min at 4oC.  Pellets containing nuclei were washed carefully with 10 mL ice-cold lysis buffer, collected by centrifugation (500 X g, 1 min, 4oC), and resuspended in ice-cold storage buffer [50 mM Tris-HCl pH 8.3, 5 mM MgCl2, 0.1 mM EDTA, 40% glycerol] to 5X106 nuclei/100 uL.  Nuclei were then snap frozen in liquid nitrogen until GRO-seq experiments.  GRO-seq and PRO-seq experiments were carried out as previously described in Core et al, Science. 2008 Dec 19;322(5909):1845-8.
+!Sample_growth_protocol_ch1 = Cultured B-cell lines from two CEPH individuals (Centre d'Etude du Polymorphisme Humain), GM12004 and GM12750, were obtained from Coriell Cell Repositories (Camden, NJ, USA).  The B-cells were grown to a density of 5x105 cells/mL in RPMI 1640 supplemented with 15% fetal bovine serum, 100 units/mL penicillin and 100 μg/mL streptomycin, and 2 mmol/L L-glutamine.  For downstream experiments, cells were harvested 24 hours after addition of fresh medium.
+!Sample_molecule_ch1 = total RNA
+!Sample_extract_protocol_ch1 = Libraries were prepared following Illumina Directional mRNA-seq sample preparation protocol.
+!Sample_data_processing = Sequence analysis-The GRO-seq and PRO-seq samples were sequenced using HiSeq 2000 instrument and 100-200 million 100-nt reads per sample were generated.  Low-quality bases as designated by Illumina were trimmed from the 3’ end of reads, and reads shorter than 35bp were removed.  The resulting reads were aligned to an index comprising the human reference genome (hg18) and the Epstein-Barr virus genome (NC_009334.1) using GSNAP (version 2012-04-10).  A list of SNP sites in the CEU population from Hapmap (release #28) and 1000 Genomes (pilot project) was used to allow for SNP-tolerant alignments.  The following parameters were used: Mismatches ≤[(read length+2)/12-2]; Mapping score ≥20;  Soft-clipping on (-trim-mismatch-score=-3);  Known exon-exon junctions (defined by RefSeq (downloaded March 7, 2011) and Gencode (version 3c)) and novel junctions (defined by GSNAP) were accepted.  SNP sites in the CEU population from Hapmap (release #28) and 1000 Genomes (pilot project) were included for SNP-tolerant alignments.  Only reads that aligned to one genomic location (uniquely mapped reads) were used in further analyses.
+!Sample_data_processing = RNA-DNA differences-To identify RDDs, we compared RNA sequence to its corresponding DNA sequence.  Low-quality bases (Phred quality score < 20) in both the RNA and DNA were removed from consideration.  To be included as RDD sites in the final lists, the following criteria have to be met: 1) a minimum of 10 total RNA-seq reads covering that site; 2) a minimum of 10 total DNA-seq reads covering that site; 3) DNA sequence at this site is 100% concordant, without any DNA-seq reads containing alternative alleles; 4) level of RDD (# of RNA-seq reads containing non-DNA allele/# all RNA-seq reads covering a given site) is ≥10% (a minimum of two RNA-seq reads containing RDD).  To ensure the accuracy of the RDD sites, additional filtering steps were performed using two additional mapping algorithms. First, we removed all the sites that reside in repetitive genome regions annotated by repeat masker (RepeatMasker version 3.2.7).  Second, local sequences around each RDD site were aligned to the human reference genome to rule out misalignments to paralogous sequences or remaining pseudogenes.  Specifically, for each RDD event, genomic sequences comprising sequences of length 25 bp, 50 bp, and 75 bp upstream and downstream of each site along with either the DNA variant or RNA variant were aligned to an index containing human reference genome (hg18) and sequences in hg19 but not present in hg18 using BLAT(5) (Stand-alone, v. 34x11).  The settings '-stepSize=5' and 'repMatch=2253' were used to increase sensitivity.  RDD events were removed if any of the 6 corresponding sequences aligned to another genomic location with ≤n mismatches (n=(read length + 2)/12–2) and with sequences that explain the RDD call (that is if the genomic sequences match the RNA sequence).  Lastly, to avoid potential misalignment of spliced reads in GSNAP due to its high gap penalty algorithm, we re-aligned all the RNA-seq reads that contain putative RDD alleles using BLAT (Stand-alone, v. 34x11).  Human genome sequences in hg19 that are not present in hg18 were included in our index in addition to sequences in hg18.  Here, a low gap penalty was applied during BLAT alignment in order to compensate for high gap penalty of GSNAP alignment of spliced reads.  Only RDD sites that are supported by both GSNAP and BLAT are retained for downstream analysis.
+!Sample_data_processing = Genome_build: HG18
+!Sample_data_processing = Supplementary_files_format_and_content: Text files that contain 1) sites and types of RNA-DNA differences; 2) FPKM values
+!Sample_platform_id = GPL11154
+!Sample_contact_name = Isabel,Xiaorong,Wang
+!Sample_contact_laboratory = Dr. Vivian G. Cheung Lab
+!Sample_contact_department = Pediatrics&Genetics
+!Sample_contact_institute = HHMI/University of Michigan
+!Sample_contact_address = 210 washtenaw ave
+!Sample_contact_city = Ann Arbor
+!Sample_contact_state = Michigan
+!Sample_contact_zip/postal_code = 48109
+!Sample_contact_country = USA
+!Sample_instrument_model = Illumina HiSeq 2000
+!Sample_library_selection = cDNA
+!Sample_library_source = transcriptomic
+!Sample_library_strategy = RNA-Seq
+!Sample_relation = Reanalyzed by: GSE67540
+!Sample_relation = Reanalyzed by: GSE85747
+!Sample_relation = SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX173217
+!Sample_relation = BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN01096958
+!Sample_supplementary_file_1 = ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM980nnn/GSM980645/suppl/GSM980645_GM12750GRO_fastxclip-fix_trimlowqual.defv20120410.unique.bam
+!Sample_supplementary_file_2 = ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM980nnn/GSM980645/suppl/GSM980645_TableS1_GROseqRDD_GM12750.txt.gz
+!Sample_series_id = GSE39878
+!Sample_data_row_count = 0

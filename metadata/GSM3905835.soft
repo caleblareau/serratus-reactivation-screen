@@ -1,0 +1,45 @@
+^SAMPLE = GSM3905835
+!Sample_title = TR28_6KR_MOI10_III
+!Sample_geo_accession = GSM3905835
+!Sample_status = Public on Aug 05 2019
+!Sample_submission_date = Jun 26 2019
+!Sample_last_update_date = Aug 05 2019
+!Sample_type = SRA
+!Sample_channel_count = 1
+!Sample_source_name_ch1 = TRIM28 6KR IAV infected
+!Sample_organism_ch1 = Homo sapiens
+!Sample_taxid_ch1 = 9606
+!Sample_characteristics_ch1 = cell line: A549
+!Sample_characteristics_ch1 = cell type: lung epithelial carcinoma
+!Sample_characteristics_ch1 = infection: Influenza A/WSN/33, MOI10 PFU/cell, 6hpi
+!Sample_characteristics_ch1 = genotype/variation: CRISPR/Cas9-edited TRIM28 KO lentivirally transduced with TRIM28 6KR mutant
+!Sample_molecule_ch1 = total RNA
+!Sample_extract_protocol_ch1 = Total RNA from three independent replicates was extracted using the Reliaprep RNA cell kit (Promega) according to the manufacturer's protocol.
+!Sample_extract_protocol_ch1 = RNA libraries were prepared for sequencing using standard Illumina protocols.
+!Sample_description = 20180301.A-TR28_6KR_MOI10_III
+!Sample_data_processing = bcl2Fastq v2.19 software used for demultiplexing + basecalling.
+!Sample_data_processing = reads trimmed with trimmomatic, options: ILLUMINACLIP:adapters.fa:1:20:7:5:true AVGQUAL:10 MINLEN:20
+!Sample_data_processing = reads mapped with STAR  v2.5.4b, options: --sjdbOverhang 150 --twopassMode None --runThreadN 8 --outFilterType BySJout --outFilterMatchNmin 30 --outFilterMismatchNmax 10 --outFilterMismatchNoverLmax 0.05 --outMultimapperOrder Random --alignSJDBoverhangMin 1 --alignSJoverhangMin 8 --alignIntronMax 1000000 --alignMatesGapMax 1000000 --outFilterMultimapNmax 50 --chimSegmentMin 15 --chimJunctionOverhangMin 15 --chimScoreMin 15 --chimScoreSeparation 10 --outSAMstrandField intronMotif --outSAMattributes All --outStd BAM_Unsorted --outSAMtype BAM Unsorted
+!Sample_data_processing = count: FeatureCounts (Bioconductor), options: allowMultiOverlap = true; countPrimaryAlignmentsOnly= true; minFeatureOverlap=10; minMapQuality= 10 ; keepMultiHits=true
+!Sample_data_processing = differential expression analysis: EdgeR, options: normMethod = TMM; backgroundExpression =10; testMethod = glm; deTest =QL
+!Sample_data_processing = Genome_build: Homo_sapiens/Ensembl/GRCh38.p10/Annotation/Release_91-2018-02-26
+!Sample_data_processing = Supplementary_files_format_and_content: tad-delimited, raw counts
+!Sample_platform_id = GPL20301
+!Sample_contact_name = giancarlo,,russo
+!Sample_contact_email = giancarlo.russo@fgcz.ethz.ch
+!Sample_contact_department = Functional Genomics Center Zurich
+!Sample_contact_institute = ETH/University of Zurich
+!Sample_contact_address = winterthurerstrasse 190
+!Sample_contact_city = Zurich
+!Sample_contact_state = Schweiz
+!Sample_contact_zip/postal_code = 8057
+!Sample_contact_country = Switzerland
+!Sample_instrument_model = Illumina HiSeq 4000
+!Sample_library_selection = cDNA
+!Sample_library_source = transcriptomic
+!Sample_library_strategy = RNA-Seq
+!Sample_relation = BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN12139395
+!Sample_relation = SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX6367549
+!Sample_supplementary_file_1 = ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3905nnn/GSM3905835/suppl/GSM3905835_TR28_6KR_MOI10_III.txt.gz
+!Sample_series_id = GSE133329
+!Sample_data_row_count = 0

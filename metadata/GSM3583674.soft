@@ -1,0 +1,40 @@
+^SAMPLE = GSM3583674
+!Sample_title = 05N
+!Sample_geo_accession = GSM3583674
+!Sample_status = Public on Feb 13 2019
+!Sample_submission_date = Jan 29 2019
+!Sample_last_update_date = Feb 14 2019
+!Sample_type = SRA
+!Sample_channel_count = 1
+!Sample_source_name_ch1 = mucosa
+!Sample_organism_ch1 = Homo sapiens
+!Sample_taxid_ch1 = 9606
+!Sample_characteristics_ch1 = tissue: oral
+!Sample_characteristics_ch1 = Sex: female
+!Sample_characteristics_ch1 = condition: OSF
+!Sample_treatment_protocol_ch1 = Fresh tissue specimens of OSCC (n=8), OSF (n=8), and normal oral mucosa (n=2) were obtained at the time of surgical resection at Xiangya Second Hospital and Xiangya Hospital, Central South University (Changsha, China) and Shanghai Ninth People's Hospital, Shanghai Jiaotong University School of Medicine (Shanghai, China) from January 2016 to June 2017. The patients’ informed consents had been obtained under a protocol reviewed and approved by the Institutional Review Boards of the Xiangya School of Medicine or Shanghai Jiaotong University School of Medicine. 2 normal specimens were obtained from healthy oral mucosa. OSF is diagnosed excluding OSCC or neoplastic disease.
+!Sample_growth_protocol_ch1 = Fresh tissue specimens of OSCC (n=8), OSF (n=8), and normal oral mucosa (n=2) were obtained at the time of surgical resection at Xiangya Second Hospital and Xiangya Hospital, Central South University (Changsha, China) and Shanghai Ninth People's Hospital, Shanghai Jiaotong University School of Medicine (Shanghai, China) from January 2016 to June 2017. The patients’ informed consents had been obtained under a protocol reviewed and approved by the Institutional Review Boards of the Xiangya School of Medicine or Shanghai Jiaotong University School of Medicine. 2 normal specimens were obtained from healthy oral mucosa. OSF is diagnosed excluding OSCC or neoplastic disease.
+!Sample_molecule_ch1 = total RNA
+!Sample_extract_protocol_ch1 = Total RNA was isolated using TRIzol reagent (MRI, USA), and then measured by using Nanodrop 2.0.
+!Sample_extract_protocol_ch1 = Epicentre Ribo-ZeroTM kit was used to remove rRNA. Subsequently, the fragmentation buffer was used to break the RNA into short fragments of 150-200 bp, which was used as a template to synthesize cDNA using random hexamers. After purification, the double-stranded cDNA was subjected to terminal repair; a tail was added, and the sequencing linker was ligated, and finally cDNA library of total RNA was obtained by PCR enrichment.
+!Sample_description = mRNA sequencing approach for library contructions
+!Sample_data_processing = Basecalls performed using CASAVA
+!Sample_data_processing = RNA reads are removed adaptor sequences and low quality sequences using software SOAPnuke version 1.0.1 with parameters by default aligned to the genome hg19 using hisat version 2.0.12  with default parameters, and Fragments per kilobase of exon per million fragments mapped (FPKM) are caculated.
+!Sample_data_processing = Genome_build: hg19
+!Sample_data_processing = Supplementary_files_format_and_content: fpkm files were generated using hisat
+!Sample_platform_id = GPL20795
+!Sample_contact_name = Giles,,Hu
+!Sample_contact_institute = YJY
+!Sample_contact_address = Dapeng
+!Sample_contact_city = Shenzhen
+!Sample_contact_zip/postal_code = 410083
+!Sample_contact_country = China
+!Sample_instrument_model = HiSeq X Ten
+!Sample_library_selection = cDNA
+!Sample_library_source = transcriptomic
+!Sample_library_strategy = RNA-Seq
+!Sample_relation = BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN10842148
+!Sample_relation = SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX5307697
+!Sample_supplementary_file_1 = ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3583nnn/GSM3583674/suppl/GSM3583674_05N.gene.FPKM.xls.gz
+!Sample_series_id = GSE125866
+!Sample_data_row_count = 0

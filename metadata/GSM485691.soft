@@ -1,0 +1,41 @@
+^SAMPLE = GSM485691
+!Sample_title = GM19193_RNA-SEQ_induced_Rep1
+!Sample_geo_accession = GSM485691
+!Sample_status = Public on Mar 22 2010
+!Sample_submission_date = Dec 15 2009
+!Sample_last_update_date = May 15 2019
+!Sample_type = SRA
+!Sample_channel_count = 1
+!Sample_source_name_ch1 = Lymphoblastoid Cells
+!Sample_organism_ch1 = Homo sapiens
+!Sample_taxid_ch1 = 9606
+!Sample_characteristics_ch1 = cell type: Lymphoblastoid cell
+!Sample_characteristics_ch1 = cell line: GM19193
+!Sample_characteristics_ch1 = treatment: TNF-alpha induced (6h)
+!Sample_biomaterial_provider_ch1 = Coriell Cell Repositories http://ccr.coriell.org/Sections/Search/Search.aspx?PgId=165&q=GM19193
+!Sample_treatment_protocol_ch1 = Cells were treated with 25 ng/mL human recombinant TNF-alpha (eBioscience #14-8329) for six hours at 37°C, 5% CO2.
+!Sample_growth_protocol_ch1 = Lymphoblastoid cell lines were grown in RPMI-1640 Medium, supplemented with glutamine, 15% FBS, and antibiotics (penicillin-streptomycin) at 37C in 5% CO2, to a density of 6-8 x10^5 cells/ml.
+!Sample_molecule_ch1 = polyA RNA
+!Sample_extract_protocol_ch1 = Total RNA was extracted from lymphoblastoid cell lines, purified and then poly(A)-enriched using two cycles of selection with oligo(dT) cellulose. The Poly(A)-RNA was fragmented and subsequently converted into doublestranded cDNA priming with random hexamers.  For construction of sequencing libraries cDNA was purified, size-seledcted on 2% agarose gel, end-repaired and phosphorylated with the End-It kit from. After treatment with Klenow fragment (NEB, Cat# M0212s) and dATP, Illumina adapters were ligated to the protruding 3_-‘A’ base (LigaFast, Promega Cat#M8221). DNA was amplified with Illumina genomic DNA primers 1.1 and 2.1 for 15 cycles by using the following program: 1. 30 s at 98 °C, 2. 15 cycles of 10 s at 98 °C, 30 s at 65 °C, 30 s at 72 °C, and 3. a 5-min extension at 72 °C. The product was run on 2% agarose E-gels (Invitrogen) to isolate the libraries from residual primers and adapters. Purified library DNA was captured on an Illumina flowcell for cluster generation and sequenced on an Illumina Genome Analyzer II following the manufacturer’s protocols.
+!Sample_description = RNA-Seq of PolyA RNA
+!Sample_data_processing = FASTQ files are either the sequence.txt files from the Illumnia pipeline (which exclude low quality reads) or, when available, are generated from the Illumina export.txt files which include all reads. Both types of alignment files, eland_result.txt and eland_multi.txt, are directly out of the Illumnia pipeline and unmodified. The narrowPeak files are the scored results generated from the PeakSeq pipeline (http://www.ncbi.nlm.nih.gov/pubmed/19122651?dopt=Abstract) and formatted in the UCSC narrowPeak format.
+!Sample_platform_id = GPL9115
+!Sample_contact_name = Flora,,Vaccarino
+!Sample_contact_laboratory = Vaccarino
+!Sample_contact_department = Child Study Center
+!Sample_contact_institute = Yale University
+!Sample_contact_address = 230 South Frontage Road
+!Sample_contact_city = New Haven
+!Sample_contact_state = CT
+!Sample_contact_zip/postal_code = 06520
+!Sample_contact_country = USA
+!Sample_instrument_model = Illumina Genome Analyzer II
+!Sample_library_selection = cDNA
+!Sample_library_source = transcriptomic
+!Sample_library_strategy = RNA-Seq
+!Sample_relation = SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX017937
+!Sample_relation = BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN00010314
+!Sample_supplementary_file_1 = ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM485nnn/GSM485691/suppl/GSM485691_GM19193_RNAseq_rep1_FC42F1AHM_20090722_s_8_eland_multi.txt.gz
+!Sample_series_id = GSE19481
+!Sample_series_id = GSE19486
+!Sample_data_row_count = 0

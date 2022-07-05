@@ -1,0 +1,44 @@
+^SAMPLE = GSM1261036
+!Sample_title = GM12004_chromatin_RNA
+!Sample_geo_accession = GSM1261036
+!Sample_status = Public on Feb 21 2014
+!Sample_submission_date = Nov 07 2013
+!Sample_last_update_date = May 15 2019
+!Sample_type = SRA
+!Sample_channel_count = 1
+!Sample_source_name_ch1 = B-cells
+!Sample_organism_ch1 = Homo sapiens
+!Sample_taxid_ch1 = 9606
+!Sample_characteristics_ch1 = cell type: B-cells
+!Sample_characteristics_ch1 = individual: GM12004
+!Sample_characteristics_ch1 = assay: chromatin-associated nascent RNA-seq
+!Sample_biomaterial_provider_ch1 = Coriell; http://ccr.coriell.org/Sections/Search/Search.aspx?PgId=165&q=GM12004
+!Sample_growth_protocol_ch1 = Cultured B-cell lines from two CEPH individuals (Centre d'Etude du Polymorphisme Humain), GM12004 and GM12750, were obtained from Coriell Cell Repositories (Camden, NJ, USA).  The B-cells were grown to a density of 5x105 cells/mL in RPMI 1640 supplemented with 15% fetal bovine serum, 100 units/mL penicillin and 100 μg/mL streptomycin, and 2 mmol/L L-glutamine.  For downstream experiments, cells were harvested 24 hours after addition of fresh medium.
+!Sample_molecule_ch1 = total RNA
+!Sample_extract_protocol_ch1 = For chromatin-associated nascent RNA-seq, cultured B cells were treated with cell fractionation buffer from the PARIS kit (Ambion) following manufacturer’s protocol to obtain a nuclei pellet.  Chromatin fraction was extract from this pellet as previously described (Pandya-Jones and Black, RNA, 15, 1896, 2009).  Briefly, the nuclei pellet was washed with ice-cold 1× PBS containg 1 mM EDTA, then resuspended in a ice-cold glycerol buffer (20 mM Tris-HCl, pH 7.9, 75 mM NaCl, 0.5 mM EDTA, 0.85 mM DTT, 0.125 mM PMSF, 50% glycerol). An equal volume of ice-cold nuclei lysis buffer (10 mM HEPES, pH 7.6, 1 mM DTT, 7.5 mM MgCl2, 0.2 mM EDTA, 0.3 M NaCl, 1 M UREA, 1% NP-40) was added, the tube was gently vortexed, incubated for 2 min on ice, and then centrifuged for 2 min, 4°C at 14,000 rpm.  The supernatant was removed and the chromatin pellet was gently washed with ice-cold 1× PBS containg 1 mM.  Chromatin RNA was prepared from this pellet using TRI Reagent RT (Molecular Research Center). This RNA was further purified using the RNeasy Mini protocol (Qiagen) with on-column DNase digestion.  After being shown to be free of genomic DNA, the chromatin RNA was sequenced on HiSeq 2000 as described above.
+!Sample_extract_protocol_ch1 = Libraries were prepared following Illumina Directional mRNA-seq sample preparation protocol.
+!Sample_description = chromatin-bound RNA
+!Sample_data_processing = Sequence analysis-Low-quality bases as designated by Illumina were trimmed from the 3’ end of reads, and reads shorter than 35bp were removed.  The resulting reads were aligned to an index comprising the human reference genome (hg18) and the Epstein-Barr virus genome (NC_009334.1) using GSNAP (version 2012-04-10).  A list of SNP sites in the CEU population from Hapmap (release #28) and 1000 Genomes (pilot project) was used to allow for SNP-tolerant alignments.  The following parameters were used: Mismatches ≤[(read length+2)/12-2]; Mapping score ≥20;  Soft-clipping on (-trim-mismatch-score=-3);  Known exon-exon junctions (defined by RefSeq (downloaded March 7, 2011) and Gencode (version 3c)) and novel junctions (defined by GSNAP) were accepted.  SNP sites in the CEU population from Hapmap (release #28) and 1000 Genomes (pilot project) were included for SNP-tolerant alignments.  Only reads that aligned to one genomic location (uniquely mapped reads) were used in further analyses.
+!Sample_data_processing = Levels of transcripts were analyzed using RSeQC.  RPKM (read per kilobase per million reads) for each gene were calucated.
+!Sample_data_processing = Genome_build: HG18
+!Sample_data_processing = Supplementary_files_format_and_content: Text files that contain RPKM values
+!Sample_platform_id = GPL11154
+!Sample_contact_name = Isabel,Xiaorong,Wang
+!Sample_contact_laboratory = Dr. Vivian G. Cheung Lab
+!Sample_contact_department = Pediatrics&Genetics
+!Sample_contact_institute = HHMI/University of Michigan
+!Sample_contact_address = 210 washtenaw ave
+!Sample_contact_city = Ann Arbor
+!Sample_contact_state = Michigan
+!Sample_contact_zip/postal_code = 48109
+!Sample_contact_country = USA
+!Sample_instrument_model = Illumina HiSeq 2000
+!Sample_library_selection = cDNA
+!Sample_library_source = transcriptomic
+!Sample_library_strategy = RNA-Seq
+!Sample_relation = BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN02400327
+!Sample_relation = SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX375028
+!Sample_supplementary_file_1 = ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1261nnn/GSM1261036/suppl/GSM1261036_GM12004.090612_chromatin_1_EarlyAccess.fastxclip.trimlowqual.revcomp.defv20120410.unique.bam
+!Sample_supplementary_file_2 = ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1261nnn/GSM1261036/suppl/GSM1261036_GM12004_chromatin_rpkm.txt.gz
+!Sample_series_id = GSE39878
+!Sample_data_row_count = 0
