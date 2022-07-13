@@ -51,6 +51,7 @@ others <- fread("../output/Tcell_hits_per_virus.tsv")[,-8] %>%
   filter(virus_name != "Human herpesvirus 6") %>% distinct
   
 
-total_tcell_df <- rbind(hhv6, others) %>% distinct() %>% arrange(desc(n_reads))
+total_tcell_df <- rbind(hhv6, others) %>% distinct() %>% arrange(desc(score))
+total_tcell_df
 table(total_tcell_df$virus_name)
 write.table(total_tcell_df, file = "../output/Tcell_Table-wHHV6B.tsv", sep = "\t", quote = FALSE, row.names = FALSE, col.names = TRUE)
