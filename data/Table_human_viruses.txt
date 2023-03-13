@@ -96,7 +96,7 @@ Rabies virus	"Lyssavirus,Rhabdoviridae"	"Human, mammals"	"Zoonosis, animal bite"
 Rift valley fever virus	"Phlebovirus,Bunyaviridae"	"Human, mammals, mosquitoes, sandflies"	"Zoonosis, arthropod bite"	Hemorrhagic fever	"NC_002043, NC_002044, NC_002045"
 Rosavirus A	"Rosavirus,Picornaviridae"	Human			NC_024070
 Ross river virus	"Alphavirus,Togaviridae"	"Human, mosquitoes, marsupials"	"Zoonosis, arthropod bite"	"Fever, joint pain"	NC_001544
-Rotavirus A	"Rotavirus,Reoviridae"	Human	Fecal-oral	Gastroenteritis	"NC_011507, NC_011506, NC_011508, NC_011510, NC_011500, NC_011509, NC_011501, NC_011503, NC_011504, ""NC_011505"
+Rotavirus A	"Rotavirus,Reoviridae"	Human	Fecal-oral	Gastroenteritis	"NC_011507, NC_011506, NC_011508, NC_011510, NC_011500, NC_011509, NC_011501, NC_011503, NC_011504, NC_011505"
 Rotavirus B	"Rotavirus,Reoviridae"	Human	Fecal-oral	Gastroenteritis	"NC_007548, NC_007549, NC_007550, NC_007551, NC_007552, NC_007553, NC_007554, NC_007555, NC_007556, NC_007557, NC_007558"
 Rotavirus C	"Rotavirus,Reoviridae"	Human	Fecal-oral	Gastroenteritis	"NC_007547, NC_007546, NC_007572, NC_007574, NC_007570, NC_007543, NC_007544, NC_007571, NC_007545, NC_007569, NC_007573"
 Rubella virus	"Rubivirus,Togaviridae"	Human	Respiratory	Rubella	NC_001545

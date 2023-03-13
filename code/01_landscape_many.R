@@ -27,6 +27,7 @@ tbl <- fread("../data/Table_human_viruses.txt", header = FALSE)
 
 # Grep for those that can be latent / reactivated
 tbl <- tbl[grepl(c("Herpesviridae|Polyomaviridae|Parvoviridae|Adenoviridae"),tbl$V2),]
+tbl
 tbl <- tbl[tbl$V6 != "Not available",]
 
 #-----
@@ -96,8 +97,9 @@ data.frame(sort(table(mdf$name1))) %>% arrange(desc(Freq)) %>% head()
 mdf$known_infection <- grepl("dpi|nfect|hpi|p.i.", mdf$title) | grepl("dpi|nfect|hpi|p.i.", mdf$name1)
 
 # Make T cell count
-mdf[complete.cases(mdf) & (grepl("T-cell|\ T\ cell|Tcell|CD4T|CD8T|^T cell", mdf$name1) | grepl("T-cell|\ T\ cell|Tcell|CD4T|CD8T |^T cell", mdf$title)),] %>% distinct()
-mdf[grepl("T-cell|\ T\ cell|Tcell|CD4T|CD8T", mdf$name1) | grepl("T-cell|\ T\ cell|Tcell|CD4T|CD8T", mdf$title) ,] %>% distinct() 
+tcell_string <- "T-cell|\ T\ cell|Tcell|CD4T|CD8T|^T cell|^T-Lymph|T\ lymph"
+mdf[complete.cases(mdf) & (grepl(tcell_string, mdf$name1) | grepl(tcell_string, mdf$title)),] %>% distinct()
+mdf[grepl(tcell_string, mdf$name1) | grepl(tcell_string, mdf$title) ,] %>% distinct() 
 
 # See all HHV6 hits
 mdf %>% filter(virus_name == "Human herpesvirus 6")
@@ -128,11 +130,9 @@ mdf[grepl("lood|PBMC", mdf$name1) ,] %>% distinct() %>%
   group_by(virus_name) %>% summarize(count = n())
 mdf[grepl("lood|PBMC", mdf$name1) ,] %>% distinct() 
 
-mdf %>% filter(which_virus %in% c(  "Human cytomegalovirus"))
+mdf %>% filter(virus_name %in% c(  "Human cytomegalovirus"))
 
 mdf %>% filter(virus_name %in% c("JC polyomavirus")) 
-mdf %>% filter(which_virus %in% c("HSV1", "HSV2"))
-mdf %>% filter(which_virus %in% c("HHV3", "HHV8"))
 
 (mdf[!(grepl("GM12|lymphoblastoid|LCL|EBV|Epstein|Lymphob|Raji", mdf$title) | grepl("GM12|lymphoblastoid|LCL|EBV|Epstein|Lymphob|Raji|LC_control", mdf$name1)),] %>% 
     filter(which_virus %in% c("EBV")))[150:300,]
