@@ -1,10 +1,10 @@
 library(data.table)
 library(dplyr)
 
-sra <- fread("../data/hu_SraRunInfo.csv.gz")
+sra <- fread("../meta/hu_SraRunInfo.csv.gz")
 virus <- c("HHV6B")
 pull_viral_info <- function(which_virus){
-  virus <- fread(paste0("../data/manual/SerratusMatches-",which_virus,".csv.gz"))
+  virus <- fread(paste0("../serratus_data_setup//manual/SerratusMatches-",which_virus,".csv.gz"))
   human_reactivation <- merge(virus, sra, by.x = "run_id", by.y = "Run")
   
   human_reactivation_filt <- human_reactivation %>%
@@ -24,12 +24,14 @@ all_viral_df[!grepl("GSM", all_viral_df$SampleName),] %>%
 
 library(GEOquery)
 
-# Manually filter problematic ones
+# Manually filter problematic ones-- these problematic samples
 blacklist <- c("GSM4467089", "GSM4467088", "GSM4467090", "GSM4467091")
 all_viral_df_geo <- all_viral_df_geo[!(all_viral_df_geo$SampleName %in% blacklist),]
 
 all_viral_df_geo_get <- all_viral_df_geo[!(all_viral_df_geo$SampleName%in% gsub(".soft", "", list.files("../metadata/"))),]
-dim(all_viral_df_geo_get)
+dim(all_viral_df_geo_get) # if 0, we have them all
+
+# Now loop over and annotate the HHV6 stuff
 titles_df <- lapply(all_viral_df_geo$SampleName, function(gsm){
   print(gsm)
   gds <- GEOquery::getGEO(gsm, destdir = "../metadata/")

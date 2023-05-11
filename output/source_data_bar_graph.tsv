@@ -1,16 +1,18 @@
-virus_name	count
-Adeno-associated virus	26
-BK polyomavirus	46
-Cercopithecine herpesvirus	77
-Epstein-Barr virus	4473
-Human adenovirus	607
-Human cytomegalovirus	431
-Human herpesvirus 1	455
-Human herpesvirus 2	203
-Human herpesvirus 6	29
-Human herpesvirus 7	14
-Human herpesvirus 8	327
-Human parvovirus B19	24
-JC polyomavirus	46
-Merkel cell polyomavirus	48
-Varicella-zoster virus	70
+viral_name	count
+Adeno-associated virus	4
+BK polyomavirus	39
+Cercopithecine herpesvirus	51
+Epstein-Barr virus	3976
+Human adenovirus	374
+Human cytomegalovirus	331
+Human herpesvirus 1	392
+Human herpesvirus 2	127
+Human herpesvirus 6	21
+Human herpesvirus 7	5
+Human herpesvirus 8	290
+Human parvovirus B19	4
+JC polyomavirus	39
+KI Polyomavirus	1
+Merkel cell polyomavirus	4
+Varicella-zoster virus	65
+WU polyomavirus	1
