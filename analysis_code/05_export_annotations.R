@@ -1,6 +1,10 @@
 library(data.table)
 library(dplyr)
 
+# Import celltypes to filter
+tcell_df <- fread("../output/all_tcell_SRAs.tsv")
+ipsc_df <- fread("../output/all_iPSC_SRAs.tsv")
+
 # Import HHV-6B and annotate accordingly
 sra <- fread("../meta/hu_SraRunInfo.csv.gz")
 hhv6b <- fread(paste0("../serratus_data_setup/manual/SerratusMatches-HHV6B.csv.gz"))  %>%
@@ -8,30 +12,6 @@ hhv6b <- fread(paste0("../serratus_data_setup/manual/SerratusMatches-HHV6B.csv.g
   mutate(viral_name = "Human herpesvirus 6B")
 hhv6b_annotated <- data.frame(merge(hhv6b, sra, by.x = "run_id", by.y = "Run"))
 sample_name_vec <- sra$SampleName; names(sample_name_vec) <- sra$Run
-
-# Import celltypes to filter
-tcell_df <- fread("../output/all_tcell_SRAs.tsv")
-ipsc_df <- fread("../output/all_iPSC_SRAs.tsv")
-
-# First plot the proportion of T cells -- 
-all %>%
-  mutate(is_t_cell= run_id %in% tcell_df$Run) %>% 
-  group_by(viral_name) %>% summarize(count = n(), sum_t = sum(is_t_cell)) %>%
-  mutate(perc_tcell = sum_t/count*100) %>% filter(sum_t > 0) -> perc_plot_df
-
-cc <- unique(perc_plot_df$viral_name)
-perc_plot_df$viral_name <- factor(cc, levels = rev(cc))
-perc_plot_df %>%
-  ggplot(aes(x = viral_name, y = perc_tcell)) + 
-  geom_bar(fill = "lightgrey", color = "black", stat = "identity") +
-  pretty_plot(fontsize = 7) + L_border() +
-  scale_y_continuous(expand = c(0,0), breaks = c(0, 5, 10)) +
-  labs(x = "", y = "") +
-  coord_flip() -> pO
-pO
-cowplot::ggsave2(pO, file = "../output/percent_Tcells.pdf", width = 2.2, height = 1.5)
-
-
 
 # Combine with Viralzone queries
 all <- fread(paste0("../output/all_libraries_reactivation_annotated.tsv"))
@@ -56,9 +36,15 @@ titles_df <- lapply(combined_df$SampleName, function(gsm){
              name1 = gds@header$source_name_ch1
   )
 }) %>% rbindlist() %>% distinct() %>% data.frame()
-combined_df$title <- combined_df[["title"]]
-combined_df$name1 <- combined_df[["name1"]]
 
+annotated_df <- merge(combined_df, titles_df, by.x = "SampleName", by.y = "gsm")
 
+annotated_df %>%
+  filter(run_id %in% tcell_df$Run) %>%
+  arrange(desc(n_reads))
+
+annotated_df %>%
+  filter(run_id %in% ipsc_df$Run) %>%
+  arrange(desc(n_reads))
 
 
