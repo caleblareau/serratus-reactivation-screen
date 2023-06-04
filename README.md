@@ -24,13 +24,15 @@ Here, we explicitly map the files in `output` used to create the extended data t
 
 ```
 Extended Data Table 1 = output/Serratus_hits_all_viruses.tsv
+Extended Data Table 2 = output/Serratus_libraries_all_hits_reactivation.tsv
+Extended Data Table 4 = output/tcell_hits_per_virus.tsv
+Extended Data Table 7 = output/iPSC_hits_per_virus.tsv
 
 ```
 
 ### Other useful tables
 ```
-All iPSC SRAs = https://github.com/caleblareau/serratus-reactivation-screen/blob/main/output/all_iPSC_SRAs.tsv
-All Tcell SRAs = https://github.com/caleblareau/serratus-reactivation-screen/blob/main/output/all_tcell_SRAs.tsv
-All plausible viral reactivation libraries = https://github.com/caleblareau/serratus-reactivation-screen/blob/main/output/Serratus_libraries_all_hits_reactivation.tsv
+All iPSC SRAs = output/all_iPSC_SRAs.tsv
+All Tcell SRAs = output/all_tcell_SRAs.tsv
 ```
 <br>

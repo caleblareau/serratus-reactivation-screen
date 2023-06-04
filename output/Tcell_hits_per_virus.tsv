@@ -1,20 +1,46 @@
-virus_name	run_id	SampleName	score	n_reads	title	name1	known_infection
-Human herpesvirus 6	SRR2454080	GSM1888839	100	63409	5131-Memory-T336	Memory CD4 T-cells	FALSE
-Human herpesvirus 6	SRR8646162	GSM3635355	100	42877	donor49_Infected_day14	Primary CD4 positive T-cell	TRUE
-Human herpesvirus 6	SRR7281477	GSM3181603	100	23976	Infected T cells as positive control [SupT1]	cell pellet	TRUE
-Human herpesvirus 6	SRR8646161	GSM3635354	100	5291	donor49_Infected_day9	Primary CD4 positive T-cell	TRUE
-Epstein-Barr virus	SRR7010505	GSM3099827	97	2435	RNA-Seq T cells TCR 2 days	T cells (Patient 4) with T-Cell Receptor stimulation (anti-CD3 + anti-CD28)	FALSE
-Epstein-Barr virus	SRR7971484	GSM3418284	97	2203	invitro_rep7_IL21	Intestinal intraepithelial cytotoxic T cells	FALSE
-Epstein-Barr virus	SRR7971485	GSM3418285	87	1765	invitro_rep7_IL21_BNZ	Intestinal intraepithelial cytotoxic T cells	FALSE
-Human adenovirus	SRR6652791	GSM2971200	100	1604	CD4lowHLA-G+ T cells rep2	CD4lowHLA-G+ T cells	FALSE
-Epstein-Barr virus	SRR7971487	GSM3418287	84	1300	invitro_rep7_UN	Intestinal intraepithelial cytotoxic T cells	FALSE
-Epstein-Barr virus	SRR7010503	GSM3099825	97	1085	RNA-Seq Fresh T cells	T cells (Patient 4)_fresh T cells with no stimulation	FALSE
-Epstein-Barr virus	SRR7971482	GSM3418282	81	877	invitro_rep6_IL21_CP	Intestinal intraepithelial cytotoxic T cells	FALSE
-Epstein-Barr virus	SRR7971483	GSM3418283	81	803	invitro_rep6_UN	Intestinal intraepithelial cytotoxic T cells	FALSE
-Epstein-Barr virus	SRR7971486	GSM3418286	72	723	invitro_rep7_IL21_CP	Intestinal intraepithelial cytotoxic T cells	FALSE
-Human herpesvirus 8	SRR4026476	GSM2274957	64	563	S33284_838213_hOKT3_R_6mo_CD8_TIGITpos_KLRG1pos_stim_untr	CD8+ sorted T-cells	FALSE
-Epstein-Barr virus	SRR7971480	GSM3418280	78	551	invitro_rep6_IL21	Intestinal intraepithelial cytotoxic T cells	FALSE
-Merkel cell polyomavirus	SRR5980469	GSM2754541	97	435	243_07-0200_DAY_0_T-Ag85_243_L5.LB23	T cells	FALSE
-Epstein-Barr virus	SRR7971481	GSM3418281	64	366	invitro_rep6_IL21_BNZ	Intestinal intraepithelial cytotoxic T cells	FALSE
-Human herpesvirus 8	SRR4026468	GSM2274949	67	190	S33276_838213_hOKT3_R_6mo_CD8_TIGITpos_KLRG1pos_stim_untr	CD8+ sorted T-cells	FALSE
-Epstein-Barr virus	SRR8646160	GSM3635353	55	154	donor49_Infected_day7	Primary CD4 positive T-cell	TRUE
+SampleName	run_id	sequence_accession	score	percent_identity	n_reads	viral_name	BioSample	title	name1
+GSM3635355	SRR8646162	NC_000898.1	100	99	1696008	Human herpesvirus 6B	SAMN11037415	donor49_Infected_day14	Primary CD4 positive T-cell
+GSM1888839	SRR2454080	NC_000898.1	100	99	1545472	Human herpesvirus 6B	SAMN04096795	5131-Memory-T336	Memory CD4 T-cells
+GSM3181603	SRR7281477	NC_000898.1	100	99	1531733	Human herpesvirus 6B	SAMN09383196	Infected T cells as positive control [SupT1]	cell pellet
+GSM3635354	SRR8646161	NC_000898.1	100	99	244487	Human herpesvirus 6B	SAMN11037437	donor49_Infected_day9	Primary CD4 positive T-cell
+GSM3768192	SRR9059114	NC_007605.1	98	98	112788	Epstein-Barr virus	SAMN11653916	SNT15	SNT15 cells
+GSM1888839	SRR2454080	NC_001664.4	100	99	63409	Human herpesvirus 6	SAMN04096795	5131-Memory-T336	Memory CD4 T-cells
+GSM3768193	SRR9059115	NC_007605.1	67	97	62746	Epstein-Barr virus	SAMN11653915	SNT16	SNT16 cells
+GSM3768190	SRR9059112	NC_007605.1	56	98	48580	Epstein-Barr virus	SAMN11653918	SNK9	SNK9 cells
+GSM3635355	SRR8646162	NC_001664.4	100	98	42877	Human herpesvirus 6	SAMN11037415	donor49_Infected_day14	Primary CD4 positive T-cell
+GSM3181603	SRR7281477	NC_001664.4	100	97	23976	Human herpesvirus 6	SAMN09383196	Infected T cells as positive control [SupT1]	cell pellet
+GSM4237444	SRR10775533	NC_001699.1	100	98	16198	JC polyomavirus	SAMN13689725	GEM-UP-2314_S23	kidney allograft recipient
+GSM3635354	SRR8646161	NC_001664.4	100	97	5291	Human herpesvirus 6	SAMN11037437	donor49_Infected_day9	Primary CD4 positive T-cell
+GSM3099827	SRR7010505	NC_007605.1	97	100	2435	Epstein-Barr virus	SAMN08937983	RNA-Seq T cells TCR 2 days	T cells (Patient 4) with T-Cell Receptor stimulation (anti-CD3 + anti-CD28)
+GSM3418284	SRR7971484	NC_007605.1	97	100	2203	Epstein-Barr virus	SAMN10182781	invitro_rep7_IL21	Intestinal intraepithelial cytotoxic T cells
+GSM3635351	SRR8646158	NC_000898.1	100	98	2027	Human herpesvirus 6B	SAMN11037417	donor14_Mock_day14	Primary CD4 positive T-cell
+GSM3418285	SRR7971485	NC_007605.1	87	100	1765	Epstein-Barr virus	SAMN10182780	invitro_rep7_IL21_BNZ	Intestinal intraepithelial cytotoxic T cells
+GSM3927827	SRR9642824	NC_006273.2	100	98	1655	Human cytomegalovirus	SAMN12213524	CD14_196_Sepsis	CD14
+GSM2971200	SRR6652791	NC_001405.1	100	97	1604	Human adenovirus	SAMN08436977	CD4lowHLA-G+ T cells rep2	CD4lowHLA-G+ T cells
+GSM3418287	SRR7971487	NC_007605.1	84	100	1300	Epstein-Barr virus	SAMN10182778	invitro_rep7_UN	Intestinal intraepithelial cytotoxic T cells
+GSM3099825	SRR7010503	NC_007605.1	97	100	1085	Epstein-Barr virus	SAMN08937970	RNA-Seq Fresh T cells	T cells (Patient 4)_fresh T cells with no stimulation
+GSM3418282	SRR7971482	NC_007605.1	81	100	877	Epstein-Barr virus	SAMN10182783	invitro_rep6_IL21_CP	Intestinal intraepithelial cytotoxic T cells
+GSM4277715	SRR10918781	NC_007605.1	71	99	843	Epstein-Barr virus	SAMN13895626	s14852	clinical samples
+GSM3418283	SRR7971483	NC_007605.1	81	100	803	Epstein-Barr virus	SAMN10182782	invitro_rep6_UN	Intestinal intraepithelial cytotoxic T cells
+GSM3635353	SRR8646160	NC_000898.1	94	99	771	Human herpesvirus 6B	SAMN11037438	donor49_Infected_day7	Primary CD4 positive T-cell
+GSM3418286	SRR7971486	NC_007605.1	72	100	723	Epstein-Barr virus	SAMN10182779	invitro_rep7_IL21_CP	Intestinal intraepithelial cytotoxic T cells
+GSM4237455	SRR10775544	NC_001538.1	100	98	673	BK polyomavirus	SAMN13689762	U10	kidney allograft recipient
+GSM4277714	SRR10918780	NC_007605.1	67	99	648	Epstein-Barr virus	SAMN13895628	s10658	clinical samples
+GSM1888831	SRR2454072	NC_000898.1	100	96	576	Human herpesvirus 6B	SAMN04096813	5131-Memory-T24	Memory CD4 T-cells
+GSM2274957	SRR4026476	NC_009333.1	64	98	563	Human herpesvirus 8	SAMN05570911	S33284_838213_hOKT3_R_6mo_CD8_TIGITpos_KLRG1pos_stim_untr	CD8+ sorted T-cells
+GSM3418280	SRR7971480	NC_007605.1	78	100	551	Epstein-Barr virus	SAMN10182785	invitro_rep6_IL21	Intestinal intraepithelial cytotoxic T cells
+GSM1888815	SRR2454056	NC_000898.1	89	96	531	Human herpesvirus 6B	SAMN04096838	5131-Naive-T24	Naive CD4 T-cells
+GSM4277714	SRR10918780	NC_006273.2	60	98	519	Human cytomegalovirus	SAMN13895628	s10658	clinical samples
+GSM2754541	SRR5980469	NC_010277.2	97	99	435	Merkel cell polyomavirus	SAMN07564126	243_07-0200_DAY_0_T-Ag85_243_L5.LB23	T cells
+GSM1888816	SRR2454057	NC_000898.1	84	96	431	Human herpesvirus 6B	SAMN04096839	5291-Naive-T24	Naive CD4 T-cells
+GSM1888840	SRR2454081	NC_000898.1	69	96	369	Human herpesvirus 6B	SAMN04096798	5291-Memory-T336	Memory CD4 T-cells
+GSM3418281	SRR7971481	NC_007605.1	64	100	366	Epstein-Barr virus	SAMN10182784	invitro_rep6_IL21_BNZ	Intestinal intraepithelial cytotoxic T cells
+GSM1888824	SRR2454065	NC_000898.1	66	96	323	Human herpesvirus 6B	SAMN04096847	5291-Naive-T336	Naive CD4 T-cells
+GSM3635346	SRR8646153	NC_000898.1	68	99	316	Human herpesvirus 6B	SAMN11037422	donor14_Infected_day9	Primary CD4 positive T-cell
+GSM1888832	SRR2454073	NC_000898.1	54	96	271	Human herpesvirus 6B	SAMN04096852	5291-Memory-T24	Memory CD4 T-cells
+GSM3927778	SRR9642775	NC_006273.2	61	97	240	Human cytomegalovirus	SAMN12213445	CD8_135_Sepsis	CD8
+GSM4277715	SRR10918781	NC_000898.1	61	99	197	Human herpesvirus 6B	SAMN13895626	s14852	clinical samples
+GSM2274949	SRR4026468	NC_009333.1	67	99	190	Human herpesvirus 8	SAMN05571012	S33276_838213_hOKT3_R_6mo_CD8_TIGITpos_KLRG1pos_stim_untr	CD8+ sorted T-cells
+GSM3927939	SRR9642936	NC_000898.1	51	99	178	Human herpesvirus 6B	SAMN12213404	CD4_20_Sepsis	CD4
+GSM3635353	SRR8646160	NC_007605.1	55	99	154	Epstein-Barr virus	SAMN11037438	donor49_Infected_day7	Primary CD4 positive T-cell
+GSM4237446	SRR10775535	NC_001538.1	51	97	146	BK polyomavirus	SAMN13689723	GEM-UP-7173b_S29	kidney allograft recipient

@@ -39,12 +39,15 @@ titles_df <- lapply(combined_df$SampleName, function(gsm){
 
 annotated_df <- merge(combined_df, titles_df, by.x = "SampleName", by.y = "gsm")
 
+# Export with all annotations 
 annotated_df %>%
   filter(run_id %in% tcell_df$Run) %>%
-  arrange(desc(n_reads))
+  arrange(desc(n_reads)) %>%
+  write.table("../output/tcell_hits_per_virus.tsv", row.names = FALSE, col.names = TRUE, sep = "\t", quote = FALSE)
 
 annotated_df %>%
   filter(run_id %in% ipsc_df$Run) %>%
-  arrange(desc(n_reads))
+  arrange(desc(n_reads)) %>%
+  write.table("../output/iPSC_hits_per_virus.tsv", row.names = FALSE, col.names = TRUE, sep = "\t", quote = FALSE)
 
 
