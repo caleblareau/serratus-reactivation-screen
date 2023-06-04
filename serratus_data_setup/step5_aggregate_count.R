@@ -23,7 +23,7 @@ tbl$serratus_high_confidence_hits <- sapply(1:dim(tbl)[1], function(x){
   ncs <- str_trim(strsplit(tbl[["V6"]][x], ",")[[1]])
   sapply(ncs, function(one_nc){
     ifelse(any(grepl(one_nc, nc_have)),
-           (fread(paste0("nc_pulls/",nc_have[grep(one_nc, nc_have)])) %>%  filter(n_reads >= 100 & score > 90) %>% dim())[1],
+           (fread(paste0("nc_pulls/",nc_have[grep(one_nc, nc_have)])) %>%  filter(n_reads >= 100 & score >= 50) %>% dim())[1],
            0)
   }) %>% sum()
 })
@@ -38,7 +38,7 @@ ncs_reactive <- tbl %>% filter(reactivation_candidate) %>% pull(V6)
 common_names <- tbl%>% filter(reactivation_candidate) %>% pull(V1)
 lapply(1:length(ncs_reactive), function(i){
   one_nc <- ncs_reactive[i]
-  fread(paste0("nc_pulls/",nc_have[grep(one_nc, nc_have)])) %>%  filter(n_reads >= 100 & score > 50) %>%
+  fread(paste0("nc_pulls/",nc_have[grep(one_nc, nc_have)])) %>%  filter(n_reads >= 100 & score >= 50) %>%
     mutate(viral_name = common_names[i])
 }) %>% rbindlist() -> full_df
 dim(full_df)

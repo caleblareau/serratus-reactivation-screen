@@ -1,130 +1,130 @@
 virus_name	family	genomes	reactivation_candidate	serratus_high_confidence_hits
-Adeno-associated virus	Dependovirus,Parvoviridae	NC_001401	TRUE	103
-Aichi virus	Kobuvirus,Picornaviridae	NC_001918	FALSE	120
-Australian bat lyssavirus	Lyssavirus,Rhabdoviridae	NC_003243	FALSE	0
-BK polyomavirus	Polyomavirus,Polyomaviridae	NC_001538	TRUE	226
-Banna virus	Seadornavirus,Reoviridae	NC_004211, NC_004217, NC_004218, NC_004219, NC_004220, NC_004221, NC_004204, NC_004203, NC_004202,  NC_004201,  NC_004200	FALSE	4
+Adeno-associated virus	Dependovirus,Parvoviridae	NC_001401	TRUE	524
+Aichi virus	Kobuvirus,Picornaviridae	NC_001918	FALSE	246
+Australian bat lyssavirus	Lyssavirus,Rhabdoviridae	NC_003243	FALSE	6
+BK polyomavirus	Polyomavirus,Polyomaviridae	NC_001538	TRUE	289
+Banna virus	Seadornavirus,Reoviridae	NC_004211, NC_004217, NC_004218, NC_004219, NC_004220, NC_004221, NC_004204, NC_004203, NC_004202,  NC_004201,  NC_004200	FALSE	27
 Barmah forest virus	Alphavirus,Togaviridae	NC_001786	FALSE	2
-Bunyamwera virus	Orthobunyavirus,Bunyaviridae	NC_001925, NC_001926, NC_001927	FALSE	3
-Bunyavirus La Crosse	Orthobunyavirus,Bunyaviridae	NC_004108, NC_004109, NC_004110	FALSE	7
+Bunyamwera virus	Orthobunyavirus,Bunyaviridae	NC_001925, NC_001926, NC_001927	FALSE	6
+Bunyavirus La Crosse	Orthobunyavirus,Bunyaviridae	NC_004108, NC_004109, NC_004110	FALSE	10
 Bunyavirus snowshoe hare	Orthobunyavirus,Bunyaviridae	Not available	FALSE	0
-Cercopithecine herpesvirus	Lymphocryptovirus,Herpesviridae	NC_006560	TRUE	59
+Cercopithecine herpesvirus	Lymphocryptovirus,Herpesviridae	NC_006560	TRUE	108
 Chandipura virus	Vesiculovirus,Rhabdoviridae	Not available	FALSE	0
-Chikungunya virus	Alphavirus,Togaviridae	NC_004162	FALSE	294
-Cosavirus A	Cosavirus,Picornaviridae	NC_012800	FALSE	14
-Cowpox virus	Orthopoxvirus,Poxviridae	NC_003663	FALSE	144
-Coxsackievirus	Enterovirus,Picornaviridae	NC_001612	FALSE	68
-Crimean-Congo hemorrhagic fever virus	Nairovirus,Bunyaviridae	NC_005301, NC_005300, NC_005302	FALSE	42
-Dengue virus	Flavivirus,Flaviviridae	NC_001477	FALSE	141
+Chikungunya virus	Alphavirus,Togaviridae	NC_004162	FALSE	358
+Cosavirus A	Cosavirus,Picornaviridae	NC_012800	FALSE	47
+Cowpox virus	Orthopoxvirus,Poxviridae	NC_003663	FALSE	207
+Coxsackievirus	Enterovirus,Picornaviridae	NC_001612	FALSE	168
+Crimean-Congo hemorrhagic fever virus	Nairovirus,Bunyaviridae	NC_005301, NC_005300, NC_005302	FALSE	54
+Dengue virus	Flavivirus,Flaviviridae	NC_001477	FALSE	194
 Dhori virus	Thogotovirus,Orthomyxoviridae	Not available	FALSE	0
 Dugbe virus	Nairovirus,Bunyaviridae	NC_004159, NC_004158, NC_004157	FALSE	0
 Duvenhage virus	Lyssavirus,Rhabdoviridae	Not available	FALSE	0
-Eastern equine encephalitis virus	Alphavirus,Togaviridae	NC_003899	FALSE	2
-Ebolavirus	Ebolavirus,Filoviridae	NC_002549	FALSE	1833
-Echovirus	Enterovirus,Picornaviridae	NC_001897	FALSE	51
-Encephalomyocarditis virus	Cardiovirus,Picornaviridae	NC_001479	FALSE	18
-Epstein-Barr virus	Lymphocryptovirus,Herpesviridae	NC_007605	TRUE	5492
-European bat lyssavirus	Lyssavirus,Rhabdovirus	NC_009527	FALSE	1
-GB virus C/Hepatitis G virus	Pegivirus,Flaviviridae	NC_001710	FALSE	423
-Hantaan virus	Hantavirus,Bunyaviridae	NC_005222, NC_005219, NC_005218	FALSE	19
-Hendra virus	Henipavirus,paramyxoviridae	NC_001906	FALSE	12
-Hepatitis A virus	Hepatovirus,picornaviridae	NC_001489	FALSE	59
-Hepatitis B virus	Orthohepadnavirus,Hepadnaviridae	NC_003977	FALSE	1082
-Hepatitis C virus	Hepacivirus,Flaviviridae	NC_004102	FALSE	157
-Hepatitis E virus	Hepevirus,Unassigned	NC_001434	FALSE	3
-Hepatitis delta virus	Deltavirus,Unassigned	NC_001653	FALSE	5
+Eastern equine encephalitis virus	Alphavirus,Togaviridae	NC_003899	FALSE	3
+Ebolavirus	Ebolavirus,Filoviridae	NC_002549	FALSE	2164
+Echovirus	Enterovirus,Picornaviridae	NC_001897	FALSE	134
+Encephalomyocarditis virus	Cardiovirus,Picornaviridae	NC_001479	FALSE	35
+Epstein-Barr virus	Lymphocryptovirus,Herpesviridae	NC_007605	TRUE	6597
+European bat lyssavirus	Lyssavirus,Rhabdovirus	NC_009527	FALSE	6
+GB virus C/Hepatitis G virus	Pegivirus,Flaviviridae	NC_001710	FALSE	589
+Hantaan virus	Hantavirus,Bunyaviridae	NC_005222, NC_005219, NC_005218	FALSE	23
+Hendra virus	Henipavirus,paramyxoviridae	NC_001906	FALSE	14
+Hepatitis A virus	Hepatovirus,picornaviridae	NC_001489	FALSE	76
+Hepatitis B virus	Orthohepadnavirus,Hepadnaviridae	NC_003977	FALSE	1640
+Hepatitis C virus	Hepacivirus,Flaviviridae	NC_004102	FALSE	218
+Hepatitis E virus	Hepevirus,Unassigned	NC_001434	FALSE	12
+Hepatitis delta virus	Deltavirus,Unassigned	NC_001653	FALSE	9
 Horsepox virus	Orthopoxvirus,Poxviridae	Not available	FALSE	0
-Human adenovirus	Mastadenovirus,Adenoviridae	NC_001405	TRUE	1141
-Human astrovirus	Mamastrovirus,Astroviridae	NC_001943	FALSE	174
-Human coronavirus	Alphacoronavirus,Coronaviridae	NC_002645	FALSE	14
-Human cytomegalovirus	Cytomegalovirus,Herpesviridae	NC_006273	TRUE	814
-Human enterovirus 68, 70	Enterovirus,Picornaviridae	NC_001430	FALSE	4
-Human herpesvirus 1	Simplexvirus,Herpesviridae	NC_001806	TRUE	964
-Human herpesvirus 2	Simplexvirus,Herpesviridae	NC_001798	TRUE	270
-Human herpesvirus 6	Roseolovirus,Herpesviridae	NC_001664	TRUE	77
-Human herpesvirus 7	Roseolovirus,Herpesviridae	NC_001716	TRUE	186
-Human herpesvirus 8	Rhadinovirus,Herpesviridae	NC_009333	TRUE	466
+Human adenovirus	Mastadenovirus,Adenoviridae	NC_001405	TRUE	2227
+Human astrovirus	Mamastrovirus,Astroviridae	NC_001943	FALSE	237
+Human coronavirus	Alphacoronavirus,Coronaviridae	NC_002645	FALSE	37
+Human cytomegalovirus	Cytomegalovirus,Herpesviridae	NC_006273	TRUE	1119
+Human enterovirus 68, 70	Enterovirus,Picornaviridae	NC_001430	FALSE	11
+Human herpesvirus 1	Simplexvirus,Herpesviridae	NC_001806	TRUE	1224
+Human herpesvirus 2	Simplexvirus,Herpesviridae	NC_001798	TRUE	450
+Human herpesvirus 6	Roseolovirus,Herpesviridae	NC_001664	TRUE	106
+Human herpesvirus 7	Roseolovirus,Herpesviridae	NC_001716	TRUE	410
+Human herpesvirus 8	Rhadinovirus,Herpesviridae	NC_009333	TRUE	546
 Human immunodeficiency virus	Lentivirus,Retroviridae	NC_001802	FALSE	0
-Human papillomavirus 1	Mupapillomavirus,Papillomaviridae	NC_001356	FALSE	43
-Human papillomavirus 2	Alphapapillomavirus,Papillomaviridae	NC_001352	FALSE	174
-Human papillomavirus 16,18	Alphapapillomavirus,Papillomaviridae	NC_001526	FALSE	143
-Human parainfluenza	Respirovirus,Paramyxoviridae	NC_003461	FALSE	33
-Human parvovirus B19	Erythrovirus,Parvoviridae	NC_000883	TRUE	86
-Human respiratory syncytial virus	Pneumovirus,Paramyxoviridae	NC_001781	FALSE	163
-Human rhinovirus	Enterovirus,Picornaviridae	NC_001617	FALSE	9
-Human SARS coronavirus	Betacoronavirus,Coronaviridae	NC_004718	FALSE	162
+Human papillomavirus 1	Mupapillomavirus,Papillomaviridae	NC_001356	FALSE	79
+Human papillomavirus 2	Alphapapillomavirus,Papillomaviridae	NC_001352	FALSE	224
+Human papillomavirus 16,18	Alphapapillomavirus,Papillomaviridae	NC_001526	FALSE	277
+Human parainfluenza	Respirovirus,Paramyxoviridae	NC_003461	FALSE	69
+Human parvovirus B19	Erythrovirus,Parvoviridae	NC_000883	TRUE	144
+Human respiratory syncytial virus	Pneumovirus,Paramyxoviridae	NC_001781	FALSE	210
+Human rhinovirus	Enterovirus,Picornaviridae	NC_001617	FALSE	41
+Human SARS coronavirus	Betacoronavirus,Coronaviridae	NC_004718	FALSE	231
 Human spumaretrovirus	Spumavirus,Retroviridae	Not available	FALSE	0
 Human T-lymphotropic virus	Deltaretrovirus,Retroviridae	NC_001436	FALSE	0
 Human torovirus	Torovirus,Coronaviridae	Not available	FALSE	0
-Influenza A virus	Influenzavirus A,Orthomyxoviridae	NC_002023, NC_002021, NC_002022, NC_002017, NC_002019, NC_002018, NC_002016 ,NC_002020	FALSE	9553
-Influenza B virus	Influenzavirus B,Orthomyxoviridae	NC_002204, NC_002205, NC_002206, NC_002207, NC_002208, NC_002209, NC_002210, NC_002211	FALSE	694
-Influenza C virus	Influenzavirus C,Orthomyxoviridae	NC_006307, NC_006308, NC_006309, NC_006310, NC_006311, NC_006312, NC_006306 	FALSE	14
+Influenza A virus	Influenzavirus A,Orthomyxoviridae	NC_002023, NC_002021, NC_002022, NC_002017, NC_002019, NC_002018, NC_002016 ,NC_002020	FALSE	12732
+Influenza B virus	Influenzavirus B,Orthomyxoviridae	NC_002204, NC_002205, NC_002206, NC_002207, NC_002208, NC_002209, NC_002210, NC_002211	FALSE	906
+Influenza C virus	Influenzavirus C,Orthomyxoviridae	NC_006307, NC_006308, NC_006309, NC_006310, NC_006311, NC_006312, NC_006306 	FALSE	30
 Isfahan virus	Vesiculovirus,Rhabdoviridae	Not available	FALSE	0
-JC polyomavirus	Polyomavirus,Polyomaviridae	NC_001699	TRUE	136
-Japanese encephalitis virus	Flavivirus,Flaviviridae	NC_001437	FALSE	30
+JC polyomavirus	Polyomavirus,Polyomaviridae	NC_001699	TRUE	200
+Japanese encephalitis virus	Flavivirus,Flaviviridae	NC_001437	FALSE	36
 Junin arenavirus	Arenavirus,Arenaviridae	NC_005081, NC_005080	FALSE	0
-KI Polyomavirus	Polyomavirus,Polyomaviridae	NC_009238	TRUE	6
+KI Polyomavirus	Polyomavirus,Polyomaviridae	NC_009238	TRUE	10
 Kunjin virus	Flavivirus,Flaviviridae	Not available	FALSE	0
 Lagos bat virus	Lyssavirus,Rhabdoviridae	Not available	FALSE	0
-Lake Victoria marburgvirus	Marburgvirus,Filoviridae	NC_001608	FALSE	53
-Langat virus	Flavivirus,Flaviviridae	NC_003690	FALSE	27
-Lassa virus	Arenavirus,Arenaviridae	NC_004297, NC_004296	FALSE	695
+Lake Victoria marburgvirus	Marburgvirus,Filoviridae	NC_001608	FALSE	74
+Langat virus	Flavivirus,Flaviviridae	NC_003690	FALSE	28
+Lassa virus	Arenavirus,Arenaviridae	NC_004297, NC_004296	FALSE	954
 Lordsdale virus	Norovirus,Caliciviridae	Not available	FALSE	0
-Louping ill virus	Flavivirus,Flaviviridae	NC_001809	FALSE	4
-Lymphocytic choriomeningitis virus	Arenavirus,Arenaviridae	NC_004291, NC_004294	FALSE	145
+Louping ill virus	Flavivirus,Flaviviridae	NC_001809	FALSE	10
+Lymphocytic choriomeningitis virus	Arenavirus,Arenaviridae	NC_004291, NC_004294	FALSE	338
 Machupo virus	Arenavirus,Arenaviridae	NC_005079, NC_005078	FALSE	0
-Mayaro virus	Alphavirus,Togaviridae	NC_003417	FALSE	43
-MERS coronavirus	Betacoronavirus,Coronaviridae	NC_019843	FALSE	223
-Measles virus	Morbilivirus,Paramyxoviridae	NC_001498	FALSE	112
+Mayaro virus	Alphavirus,Togaviridae	NC_003417	FALSE	45
+MERS coronavirus	Betacoronavirus,Coronaviridae	NC_019843	FALSE	320
+Measles virus	Morbilivirus,Paramyxoviridae	NC_001498	FALSE	140
 Mengo encephalomyocarditis virus	Cardiovirus,Picornaviridae	Not available	FALSE	0
-Merkel cell polyomavirus	Polyomavirus,Polyomaviridae	NC_010277	TRUE	166
+Merkel cell polyomavirus	Polyomavirus,Polyomaviridae	NC_010277	TRUE	397
 Mokola virus	Lyssavirus,Rhabdoviridae	NC_006429	FALSE	0
-Molluscum contagiosum virus	Molluscipoxvirus,Poxviridae	NC_001731	FALSE	315
-Monkeypox virus	Orthopoxvirus,Poxviridae	NC_003310	FALSE	140
-Mumps virus	Rubulavirus,Paramyxoviridae	NC_002200	FALSE	160
-Murray valley encephalitis virus	Flavivirus,Flaviviridae	NC_000943	FALSE	7
+Molluscum contagiosum virus	Molluscipoxvirus,Poxviridae	NC_001731	FALSE	401
+Monkeypox virus	Orthopoxvirus,Poxviridae	NC_003310	FALSE	202
+Mumps virus	Rubulavirus,Paramyxoviridae	NC_002200	FALSE	214
+Murray valley encephalitis virus	Flavivirus,Flaviviridae	NC_000943	FALSE	8
 New York virus	Hantavirus,Bunyavirus	Not available	FALSE	0
-Nipah virus	Henipavirus,Paramyxoviridae	NC_002728	FALSE	15
-Norwalk virus	Norovirus,Caliciviridae	NC_001959	FALSE	11
-O’nyong-nyong virus	Alphavirus,Togaviridae	NC_001512	FALSE	47
-Orf virus	Parapoxvirus,Poxviridae	NC_005336	FALSE	43
-Oropouche virus	Orthobunyavirus,Bunyaviridae	NC_005777, NC_005775, NC_005776 	FALSE	13
+Nipah virus	Henipavirus,Paramyxoviridae	NC_002728	FALSE	22
+Norwalk virus	Norovirus,Caliciviridae	NC_001959	FALSE	42
+O’nyong-nyong virus	Alphavirus,Togaviridae	NC_001512	FALSE	86
+Orf virus	Parapoxvirus,Poxviridae	NC_005336	FALSE	143
+Oropouche virus	Orthobunyavirus,Bunyaviridae	NC_005777, NC_005775, NC_005776 	FALSE	19
 Pichinde virus	Arenavirus,Arenaviridae	NC_006447, NC_006439	FALSE	0
-Poliovirus	Enterovirus,Picornaviridae	NC_002058	FALSE	96
+Poliovirus	Enterovirus,Picornaviridae	NC_002058	FALSE	277
 Punta toro phlebovirus	Phlebovirus,Bunyaviridae	Not available	FALSE	0
 Puumala virus	Hantavirus,Bunyavirus	NC_005223, NC_005224, NC_005225	FALSE	0
-Rabies virus	Lyssavirus,Rhabdoviridae	NC_001542	FALSE	84
+Rabies virus	Lyssavirus,Rhabdoviridae	NC_001542	FALSE	204
 Rift valley fever virus	Phlebovirus,Bunyaviridae	NC_002043, NC_002044, NC_002045	FALSE	0
-Rosavirus A	Rosavirus,Picornaviridae	NC_024070	FALSE	1
-Ross river virus	Alphavirus,Togaviridae	NC_001544	FALSE	17
-Rotavirus A	Rotavirus,Reoviridae	NC_011507, NC_011506, NC_011508, NC_011510, NC_011500, NC_011509, NC_011501, NC_011503, NC_011504, NC_011505	FALSE	5354
-Rotavirus B	Rotavirus,Reoviridae	NC_007548, NC_007549, NC_007550, NC_007551, NC_007552, NC_007553, NC_007554, NC_007555, NC_007556, NC_007557, NC_007558	FALSE	0
-Rotavirus C	Rotavirus,Reoviridae	NC_007547, NC_007546, NC_007572, NC_007574, NC_007570, NC_007543, NC_007544, NC_007571, NC_007545, NC_007569, NC_007573	FALSE	58
-Rubella virus	Rubivirus,Togaviridae	NC_001545	FALSE	15
+Rosavirus A	Rosavirus,Picornaviridae	NC_024070	FALSE	2
+Ross river virus	Alphavirus,Togaviridae	NC_001544	FALSE	19
+Rotavirus A	Rotavirus,Reoviridae	NC_011507, NC_011506, NC_011508, NC_011510, NC_011500, NC_011509, NC_011501, NC_011503, NC_011504, NC_011505	FALSE	8238
+Rotavirus B	Rotavirus,Reoviridae	NC_007548, NC_007549, NC_007550, NC_007551, NC_007552, NC_007553, NC_007554, NC_007555, NC_007556, NC_007557, NC_007558	FALSE	9
+Rotavirus C	Rotavirus,Reoviridae	NC_007547, NC_007546, NC_007572, NC_007574, NC_007570, NC_007543, NC_007544, NC_007571, NC_007545, NC_007569, NC_007573	FALSE	128
+Rubella virus	Rubivirus,Togaviridae	NC_001545	FALSE	16
 Sagiyama virus	Alphavirus,Togaviridae	Not available	FALSE	0
-Salivirus A	Salivirus,Picornaviridae	NC_012957	FALSE	30
+Salivirus A	Salivirus,Picornaviridae	NC_012957	FALSE	46
 Sandfly fever sicilian virus	Phlebovirus,Bunyaviridae	Not available	FALSE	0
-Sapporo virus	Sapovirus,Caliciviridae	NC_006554	FALSE	32
-Semliki forest virus	Alphavirus,Togaviridae	NC_003215	FALSE	60
+Sapporo virus	Sapovirus,Caliciviridae	NC_006554	FALSE	52
+Semliki forest virus	Alphavirus,Togaviridae	NC_003215	FALSE	141
 Seoul virus	Hantavirus,Bunyavirus	NC_005236, NC_005237, NC_005238	FALSE	3
 Simian foamy virus	Spumavirus,Retroviridae	NC_001364	FALSE	0
 Simian virus 5	Rubulavirus,Paramyxoviridae	Not available	FALSE	0
-Sindbis virus	Alphavirus,Togaviridae	NC_001547	FALSE	193
+Sindbis virus	Alphavirus,Togaviridae	NC_001547	FALSE	281
 Southampton virus	Norovirus,Caliciviridae	Not available	FALSE	0
-St. louis encephalitis virus	Flavivirus,Flaviviridae	NC_007580	FALSE	3
-Tick-borne powassan virus	Flavivirus,Flaviviridae	NC_003687	FALSE	41
-Torque teno virus	Alphatorquevirus,Anelloviridae	NC_002076	FALSE	92
+St. louis encephalitis virus	Flavivirus,Flaviviridae	NC_007580	FALSE	4
+Tick-borne powassan virus	Flavivirus,Flaviviridae	NC_003687	FALSE	51
+Torque teno virus	Alphatorquevirus,Anelloviridae	NC_002076	FALSE	206
 Toscana virus	Phlebovirus,Bunyaviridae	NC_006318, NC_006319, NC_006320	FALSE	6
 Uukuniemi virus	Phlebovirus,Bunyaviridae	NC_005214, NC_005220, NC_005221	FALSE	0
-Vaccinia virus	Orthopoxvirus,Poxviridae	NC_006998	FALSE	219
-Varicella-zoster virus	Varicellovirus,Herpesviridae	NC_001348	TRUE	155
-Variola virus	Orthopoxvirus,Poxviridae	NC_001611	FALSE	125
-Venezuelan equine encephalitis virus	Alphavirus,Togaviridae	NC_001449	FALSE	409
-Vesicular stomatitis virus	Vesiculovirus,Rhabdoviridae	NC_001560	FALSE	165
-Western equine encephalitis virus	Alphavirus,Togaviridae	NC_003908	FALSE	0
-WU polyomavirus	Polyomavirus,Polyomaviridae	NC_009539	TRUE	65
-West Nile virus	Flavivirus,Flaviviridae	NC_001563	FALSE	10
+Vaccinia virus	Orthopoxvirus,Poxviridae	NC_006998	FALSE	296
+Varicella-zoster virus	Varicellovirus,Herpesviridae	NC_001348	TRUE	207
+Variola virus	Orthopoxvirus,Poxviridae	NC_001611	FALSE	178
+Venezuelan equine encephalitis virus	Alphavirus,Togaviridae	NC_001449	FALSE	564
+Vesicular stomatitis virus	Vesiculovirus,Rhabdoviridae	NC_001560	FALSE	254
+Western equine encephalitis virus	Alphavirus,Togaviridae	NC_003908	FALSE	8
+WU polyomavirus	Polyomavirus,Polyomaviridae	NC_009539	TRUE	83
+West Nile virus	Flavivirus,Flaviviridae	NC_001563	FALSE	73
 Yaba monkey tumor virus	Orthopoxvirus,Poxviridae	NC_005179	FALSE	0
-Yaba-like disease virus	Orthopoxvirus,Poxviridae	NC_002642	FALSE	1
-Yellow fever virus	Flavivirus,Flaviviridae	NC_002031	FALSE	33
-Zika virus	Flavivirus,Flaviviridae	NC_012532	FALSE	245
+Yaba-like disease virus	Orthopoxvirus,Poxviridae	NC_002642	FALSE	7
+Yellow fever virus	Flavivirus,Flaviviridae	NC_002031	FALSE	49
+Zika virus	Flavivirus,Flaviviridae	NC_012532	FALSE	348
