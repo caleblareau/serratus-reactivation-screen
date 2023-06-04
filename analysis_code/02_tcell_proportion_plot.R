@@ -3,6 +3,8 @@ library(dplyr)
 library(BuenColors)
 
 # Import celltypes to filter
+all <- fread(paste0("../output/all_libraries_reactivation_annotated.tsv"))
+
 tcell_df <- fread("../output/all_tcell_SRAs.tsv")
 ipsc_df <- fread("../output/all_iPSC_SRAs.tsv")
 
