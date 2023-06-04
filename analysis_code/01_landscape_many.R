@@ -51,6 +51,12 @@ tcell_samples <- unique(fread("../meta/access12March2023/tcell-sra-query.csv.gz"
 tcell_sras <- sra %>%
   filter(Sample %in% tcell_samples | BioSample %in% tcell_biosamples)
 
+# Export all iPSC/ T cell SRAs
+write.table(tcell_sras,file = "../output/all_tcell_SRAs.tsv", sep = "\t", quote = FALSE, row.names = FALSE, col.names = TRUE)
+write.table(ipsc_sras,file = "../output/all_iPSC_SRAs.tsv", sep = "\t", quote = FALSE, row.names = FALSE, col.names = TRUE)
+
+
+### other misc
 all_hits %>% filter(run_id %in% tcell_sras$Run) %>%
   filter(score > 90)
 
