@@ -27,4 +27,9 @@ Extended Data Table 1 = output/Serratus_hits_all_viruses.tsv
 
 ```
 
+### Other useful tables
+```
+All iPSC SRAs = https://github.com/caleblareau/serratus-reactivation-screen/blob/main/output/all_iPSC_SRAs.tsv
+All Tcell SRAs = https://github.com/caleblareau/serratus-reactivation-screen/blob/main/output/all_tcell_SRAs.tsv
+```
 <br>
