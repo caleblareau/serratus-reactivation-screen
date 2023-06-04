@@ -35,4 +35,7 @@ Extended Data Table 7 = output/iPSC_hits_per_virus.tsv
 All iPSC SRAs = output/all_iPSC_SRAs.tsv
 All Tcell SRAs = output/all_tcell_SRAs.tsv
 ```
+
+Note `Serratus_libraries_all_hits_reactivation.tsv` is for all viruses that can reactivate, the output of the `serratus_data_setup` folder. 
+`all_libraries_reactivation_annotated.tsv` includes the annotations of biosamples that we need for plotting / downstream annotation filtering.
 <br>
