@@ -15,7 +15,7 @@ table(all_viral_df_geo$virus_name)
 all_viral_df_geo_get <- all_viral_df_geo[!(all_viral_df_geo$SampleName%in% gsub(".soft", "", list.files("../metadata/"))),]
 dim(all_viral_df_geo_get)
 
-# Black list a few samples that cause issues
+# Black list a few samples that cause issues with the geo query
 bl <- c("GSM4467089", "GSM4467088","GSM4467090", "GSM4467091")
 all_viral_df_geo <- all_viral_df_geo[!c(all_viral_df_geo$SampleName %in% bl),]
 titles_df <- lapply(all_viral_df_geo$SampleName, function(gsm){
@@ -30,7 +30,6 @@ titles_df <- lapply(all_viral_df_geo$SampleName, function(gsm){
 # merge Serratus data with GEO meta data to find enriched patterns
 mdf <- merge(all_viral_df_geo, titles_df, by.x = "SampleName", by.y = "gsm")[,c("virus_name","run_id", "SampleName", "score", "n_reads", "title", "name1")] %>%
   arrange(desc(n_reads))
-data.frame(sort(table(mdf$name1))) %>% arrange(desc(Freq)) %>% head()
 
 mdf$known_infection <- grepl("dpi|nfect|hpi|p.i.", mdf$title) | grepl("dpi|nfect|hpi|p.i.", mdf$name1)
 

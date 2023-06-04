@@ -36,9 +36,6 @@ ggplot(new_count_df, aes(x = viral_name, y = count)) +
 p1
 #cowplot::ggsave2(p1, file = "../output/active_viruses_human_samples.pdf", width = 3, height = 1.5)
 
-# Filter for GEO samples
-#all_viral_df_geo <- all_viral_df[grepl("GSM", all_viral_df$SampleName),]
-
 
 # Filter for annotated iPSCs
 ipsc_biosamples <- unique(fread("../meta/access12March2023/ipsc-biosample_result.txt", header = FALSE)[[1]])
